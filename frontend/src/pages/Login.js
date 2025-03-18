@@ -1,125 +1,166 @@
-import React, { useContext, useState } from 'react'
-import loginIcons from '../assest/signin.gif'
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
-import { Link, useNavigate } from 'react-router-dom';
-import SummaryApi from '../common';
-import { toast } from 'react-toastify';
-import Context from '../context';
+import { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png";
+import loginImg from "../assets/login-img.jpg";
+import "./Auth.css";
+import SummaryApi from "../common";
+import { toast } from "react-toastify";
+import Context from "../context";
 
 const Login = () => {
-    const [showPassword,setShowPassword] = useState(false)
-    const [data,setData] = useState({
-        email : "",
-        password : ""
-    })
-    const navigate = useNavigate()
-    const { fetchUserDetails, fetchUserAddToCart } = useContext(Context)
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [rememberMe, setRememberMe] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
-    const handleOnChange = (e) =>{
-        const { name , value } = e.target
+  const navigate = useNavigate();
 
-        setData((preve)=>{
-            return{
-                ...preve,
-                [name] : value
-            }
-        })
-    }
+  const { fetchUserDetails } = useContext(Context);
 
+  const onChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "email") setEmail(value);
+    if (name === "password") setPassword(value);
+  };
 
-    const handleSubmit = async(e) =>{
-        e.preventDefault()
+  const validateForm = () => {
+    const errors = {};
+    if (!email.trim()) errors.email = "Email is required";
+    if (!password.trim()) errors.password = "Password is required";
+    setErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
 
-        const dataResponse = await fetch(SummaryApi.signIn.url,{
-            method : SummaryApi.signIn.method,
-            credentials : 'include',
-            headers : {
-                "content-type" : "application/json"
-            },
-            body : JSON.stringify(data)
-        })
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+    if (!validateForm()) return;
 
-        const dataApi = await dataResponse.json()
+    setIsLoading(true);
 
-        if(dataApi.success){
-            toast.success(dataApi.message)
-            navigate('/')
-            fetchUserDetails()
-            fetchUserAddToCart()
+    try {
+      const response = await fetch(SummaryApi.signIn.url, {
+        method: SummaryApi.signIn.method,
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success("Login successful!");
+
+        // Remember Me functionality
+        if (rememberMe) {
+          localStorage.setItem("rememberedEmail", email);
+        } else {
+          localStorage.removeItem("rememberedEmail");
         }
 
-        if(dataApi.error){
-            toast.error(dataApi.message)
-        }
-
+        navigate("/");
+        fetchUserDetails();
+      } else {
+        throw new Error(data.message);
+      }
+    } catch (error) {
+      toast.error(error.message);
+      setErrors({ api: error.message }); // API error handling
+    } finally {
+      setIsLoading(false);
     }
+  };
 
-    console.log("data login",data)
-    
   return (
-    <section id='login'>
-        <div className='mx-auto container p-4'>
+    <div className="flex flex-col bg-custom-gradient justify-start items-center min-h-screen">
+      <div className="Logo-img">
+        <img src={logo} alt="Company Logo" />
+      </div>
 
-            <div className='bg-white p-5 w-full max-w-sm mx-auto'>
-                    <div className='w-20 h-20 mx-auto'>
-                        <img src={loginIcons} alt='login icons'/>
-                    </div>
+      <div
+        className="flex flex-wrap gap-6 justify-center bg-cover p-3 rounded-xl"
+        style={{ backgroundImage: `url(${loginImg})` }}
+      >
+        <div className="p-4 bg-transparent rounded-lg w-80 sm:w-96">
+          <h1 className="text-2xl text-white font-bold mb-4">Login</h1>
+          <p className="mb-4 text-white text-lg">Sign in to continue</p>
+          <Link
+            to="/sign-up"
+            className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg block text-center"
+          >
+            Sign Up
+          </Link>
+        </div>
 
-                    <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit}>
-                        <div className='grid'>
-                            <label>Email : </label>
-                            <div className='bg-slate-100 p-2'>
-                                <input 
-                                    type='email' 
-                                    placeholder='enter email' 
-                                    name='email'
-                                    value={data.email}
-                                    onChange={handleOnChange}
-                                    className='w-full h-full outline-none bg-transparent'/>
-                            </div>
-                        </div>
+        <div className="p-6 bg-gray-300 bg-opacity-60 text-white rounded-lg w-80 sm:w-96">
+          <h1 className="text-2xl font-bold mb-6">Sign In</h1>
+          <form onSubmit={onSubmitForm}>
+            <label className="block mb-2">E-Mail ID</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your Email"
+              value={email}
+              onChange={onChange}
+              className="w-full p-2 mb-1 rounded-lg bg-white text-black border border-gray-600"
+            />
+            {errors.email && (
+              <p className="error text-black text-md">{errors.email}</p>
+            )}
 
-                        <div>
-                            <label>Password : </label>
-                            <div className='bg-slate-100 p-2 flex'>
-                                <input 
-                                    type={showPassword ? "text" : "password"} 
-                                    placeholder='enter password'
-                                    value={data.password}
-                                    name='password' 
-                                    onChange={handleOnChange}
-                                    className='w-full h-full outline-none bg-transparent'/>
-                                <div className='cursor-pointer text-xl' onClick={()=>setShowPassword((preve)=>!preve)}>
-                                    <span>
-                                        {
-                                            showPassword ? (
-                                                <FaEyeSlash/>
-                                            )
-                                            :
-                                            (
-                                                <FaEye/>
-                                            )
-                                        }
-                                    </span>
-                                </div>
-                            </div>
-                            <Link to={'/forgot-password'} className='block w-fit ml-auto hover:underline hover:text-red-600'>
-                                Forgot password ?
-                            </Link>
-                        </div>
+            <label className="block mt-4 mb-2">Password</label>
+            <div className="password-input relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                placeholder="********"
+                value={password}
+                onChange={onChange}
+                className="w-full p-2 pr-10 rounded-lg bg-white text-black border border-gray-600"
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute inset-y-0 right-0 px-3 py-2 flex items-center justify-center"
+              >
+                {showPassword ? "👁️" : "👁️‍🗨️"}
+              </button>
+            </div>
+            {errors.password && (
+              <p className="text-black text-md mt-1">{errors.password}</p>
+            )}
 
-                        <button className='bg-red-600 hover:bg-red-700 text-white px-6 py-2 w-full max-w-[150px] rounded-full hover:scale-110 transition-all mx-auto block mt-6'>Login</button>
+            {/* Forgot Password Link */}
+            <Link
+              to="/forgot-password"
+              className="block text-right mt-2 text-orange-500 hover:underline"
+            >
+              Forgot Password?
+            </Link>
 
-                    </form>
-
-                    <p className='my-5'>Don't have account ? <Link to={"/sign-up"} className=' text-red-600 hover:text-red-700 hover:underline'>Sign up</Link></p>
+            <div className="flex items-center mt-4">
+              <input
+                type="checkbox"
+                checked={rememberMe}
+                onChange={(e) => setRememberMe(e.target.checked)}
+                className="mr-2"
+              />
+              <label>Remember Me</label>
             </div>
 
-
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg mt-4"
+            >
+              {isLoading ? "Loading..." : "Log In"}
+            </button>
+          </form>
         </div>
-    </section>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Login
+export default Login;

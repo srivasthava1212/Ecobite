@@ -1,0 +1,74 @@
+.header {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading {
+  color: black;
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header ul :hover {
+  transform: translateY(-3px);
+  transition: transform 0.5s ease;
+  color: rgb(106, 115, 218);
+}
+.cartbtn:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+  color: rgb(106, 115, 218);
+}
+
+/* Hamburger Button */
+.hamburger {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+.hamburger:hover {
+  background: none;
+  border: none;
+  color: rgb(106, 115, 218);
+  cursor: pointer;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  text-align: center;
+  padding: 10px;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+}
+@media (min-width: 1000px) {
+  .dropdown-menu {
+    display: none;
+  }
+}
