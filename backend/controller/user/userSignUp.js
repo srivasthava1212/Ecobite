@@ -20,8 +20,10 @@ const userSignup = async (req, res) => {
     if (userExists) throw new Error("User with this email already exists");
 
     const payload = {
-      ...req.body,password:hashedPassword,role:"General"
-    }
+      ...req.body,
+      password: hashedPassword,
+      role: "GENERAL",
+    };
 
     const userData = new userModel(payload);
 
