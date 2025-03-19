@@ -1,0 +1,595 @@
+{
+  "categories": [
+    {
+      "name": "Snacks & Drinks",
+      "subcategories": [
+        {
+          "name": "Snacks",
+          "products": [
+            {
+              "id": 103,
+              "name": "Lay's Classic Salted Chips",
+              "imageUrl": "https://th.bing.com/th/id/OIP.n-ik34HoRrIhVwBdlYTBcgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crispy and light potato chips with classic salted flavor.",
+              "price": {
+                "original": 50,
+                "discounted": 45
+              },
+              "expd": "2025-04-20",
+              "ecoDeal": true,
+              "stock": 120,
+              "unit": "52g",
+              "category": "Snacks",
+              "tags": ["Chips", "Potato Chips", "Lay's"],
+              "brand": "Lay's",
+              "subCategory": "Chips & Namkeens"
+            },
+            {
+              "id": 104,
+              "name": "Bingo Mad Angles Masala Chips",
+              "imageUrl": "https://th.bing.com/th/id/OIP.6nhtNkOgifakmQ2H2DrIDAAAAA?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crunchy triangle-shaped chips with a spicy masala twist.",
+              "price": {
+                "original": 60,
+                "discounted": 55
+              },
+              "expd": "2025-05-15",
+              "ecoDeal": false,
+              "stock": 90,
+              "unit": "60g",
+              "category": "Snacks",
+              "tags": ["Chips", "Masala", "Bingo"],
+              "brand": "Bingo",
+              "subCategory": "Chips & Namkeens"
+            },
+            {
+              "id": 105,
+              "name": "Haldiram's Aloo Bhujia",
+              "imageUrl": "https://th.bing.com/th/id/OIP.nT420kfExWmjENVutNEupgHaHa?w=184&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crunchy and spicy potato-based namkeen snack.",
+              "price": {
+                "original": 85,
+                "discounted": 80
+              },
+              "expd": "2025-06-10",
+              "ecoDeal": true,
+              "stock": 110,
+              "unit": "200g",
+              "category": "Snacks",
+              "tags": ["Namkeen", "Aloo Bhujia", "Haldiram"],
+              "brand": "Haldiram's",
+              "subCategory": "Chips & Namkeens"
+            },
+            {
+              "id": 106,
+              "name": "Kurkure Masala Munch",
+              "imageUrl": "https://th.bing.com/th/id/OIP.eTT3w24Pb9S-JKIIw85AewHaKE?w=136&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Spicy and crunchy corn-based snack for a bold taste.",
+              "price": {
+                "original": 40,
+                "discounted": 38
+              },
+              "expd": "2025-05-30",
+              "ecoDeal": false,
+              "stock": 150,
+              "unit": "80g",
+              "category": "Snacks",
+              "tags": ["Kurkure", "Masala", "Spicy"],
+              "brand": "Kurkure",
+              "subCategory": "Chips & Namkeens"
+            },
+            {
+              "id": 107,
+              "name": "Britannia Good Day Butter Cookies",
+              "imageUrl": "https://th.bing.com/th/id/OIP.Ltd2iAQmkdZSgGQpZnDqtwHaHw?w=150&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crunchy and buttery cookies with a rich taste.",
+              "price": {
+                "original": 35,
+                "discounted": 30
+              },
+              "expd": "2025-04-25",
+              "ecoDeal": true,
+              "stock": 200,
+              "unit": "150g",
+              "category": "Snacks",
+              "tags": ["Cookies", "Butter", "Britannia"],
+              "brand": "Britannia",
+              "subCategory": "Biscuits & Cookies"
+            },
+            {
+              "id": 108,
+              "name": "Parle-G Original Glucose Biscuits",
+              "imageUrl": "https://th.bing.com/th/id/OIP.TDMab8wD5Z7-OmMU5xYBPwHaGd?w=209&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Classic Indian tea-time biscuits with a rich glucose taste.",
+              "price": {
+                "original": 40,
+                "discounted": 35
+              },
+              "expd": "2025-06-10",
+              "ecoDeal": false,
+              "stock": 300,
+              "unit": "250g",
+              "category": "Snacks",
+              "tags": ["Biscuits", "Glucose", "Parle-G"],
+              "brand": "Parle-G",
+              "subCategory": "Biscuits & Cookies"
+            },
+            {
+              "id": 109,
+              "name": "Hide & Seek Fab Chocolate Cookies",
+              "imageUrl": "https://th.bing.com/th/id/OIP.hXTqzAl9VhlS_s2RejRA_wHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crunchy chocolate-filled cookies for a delightful snack.",
+              "price": {
+                "original": 50,
+                "discounted": 45
+              },
+              "expd": "2025-05-20",
+              "ecoDeal": true,
+              "stock": 100,
+              "unit": "120g",
+              "category": "Snacks",
+              "tags": ["Cookies", "Chocolate", "Hide & Seek"],
+              "brand": "Hide & Seek",
+              "subCategory": "Biscuits & Cookies"
+            },
+            {
+              "id": 110,
+              "name": "Oreo Chocolate Cream Biscuits",
+              "imageUrl": "https://th.bing.com/th/id/OIP.8XzZ_iL-uxFWtKIt6ZOFgwHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Classic sandwich biscuits with rich chocolate cream.",
+              "price": {
+                "original": 60,
+                "discounted": 55
+              },
+              "expd": "2025-07-15",
+              "ecoDeal": false,
+              "stock": 120,
+              "unit": "150g",
+              "category": "Snacks",
+              "tags": ["Biscuits", "Oreo", "Chocolate"],
+              "brand": "Oreo",
+              "subCategory": "Biscuits & Cookies"
+            },
+            {
+              "id": 111,
+              "name": "Britannia Swiss Roll Chocolate",
+              "imageUrl": "https://th.bing.com/th/id/OIP.AONsYK88hC1spbFvgyErPQAAAA?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Soft chocolate roll filled with creamy goodness.",
+              "price": {
+                "original": 60,
+                "discounted": 55
+              },
+              "expd": "2025-04-20",
+              "ecoDeal": true,
+              "stock": 90,
+              "unit": "120g",
+              "category": "Snacks",
+              "tags": ["Cake", "Chocolate", "Britannia"],
+              "brand": "Britannia",
+              "subCategory": "Cakes & Muffins"
+            },
+            {
+              "id": 112,
+              "name": "Little Debbie Chocolate Chip Muffins",
+              "imageUrl": "https://th.bing.com/th/id/OIP.QZM7w8ELc9GUVLa6V5PYrgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Delicious muffins with rich chocolate chip flavor.",
+              "price": {
+                "original": 75,
+                "discounted": 70
+              },
+              "expd": "2025-05-15",
+              "ecoDeal": false,
+              "stock": 120,
+              "unit": "200g",
+              "category": "Snacks",
+              "tags": ["Muffins", "Chocolate", "Little Debbie"],
+              "brand": "Little Debbie",
+              "subCategory": "Cakes & Muffins"
+            },
+            {
+              "id": 113,
+              "name": "Hostess CupCakes Vanilla",
+              "imageUrl": "https://th.bing.com/th/id/OIP.cEfGSezhE1C-R_mMpyJM7QHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Soft vanilla cupcakes with a creamy filling.",
+              "price": {
+                "original": 85,
+                "discounted": 80
+              },
+              "expd": "2025-06-10",
+              "ecoDeal": false,
+              "stock": 100,
+              "unit": "150g",
+              "category": "Snacks",
+              "tags": ["Cupcakes", "Vanilla", "Hostess"],
+              "brand": "Hostess",
+              "subCategory": "Cakes & Muffins"
+            },
+            {
+              "id": 114,
+              "name": "Pillsbury Moist Supreme Chocolate Cake",
+              "imageUrl": "https://th.bing.com/th/id/OIP.PKqJ_EzeoUDtWt-zlLH41AHaKa?w=139&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Super moist chocolate cake for a rich experience.",
+              "price": {
+                "original": 95,
+                "discounted": 90
+              },
+              "expd": "2025-07-05",
+              "ecoDeal": false,
+              "stock": 80,
+              "unit": "250g",
+              "category": "Snacks",
+              "tags": ["Cake", "Chocolate", "Pillsbury"],
+              "brand": "Pillsbury",
+              "subCategory": "Cakes & Muffins"
+            },
+            {
+              "id": 115,
+              "name": "Haldiram's Bhujia Sev",
+              "imageUrl": "https://th.bing.com/th/id/OIP.WO07IEy935RNYZOM8gm1MwHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crispy and spicy bhujia sev made with gram flour and authentic spices.",
+              "price": {
+                "original": 120,
+                "discounted": 110
+              },
+              "expd": "2025-04-25",
+              "ecoDeal": true,
+              "stock": 150,
+              "unit": "400g",
+              "category": "Snacks",
+              "tags": ["Namkeen", "Spicy", "Haldiram"],
+              "brand": "Haldiram's",
+              "subCategory": "Indian Snacks"
+            },
+            {
+              "id": 116,
+              "name": "Bikaji Bikaneri Bhujia",
+              "imageUrl": "https://th.bing.com/th/id/OIP.E4yYrlMC_haGuLoYGw7uGgAAAA?w=118&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Traditional Bikaneri bhujia made with authentic flavors.",
+              "price": {
+                "original": 110,
+                "discounted": 105
+              },
+              "expd": "2025-05-10",
+              "ecoDeal": false,
+              "stock": 130,
+              "unit": "350g",
+              "category": "Snacks",
+              "tags": ["Namkeen", "Crispy", "Bikaji"],
+              "brand": "Bikaji",
+              "subCategory": "Indian Snacks"
+            },
+            {
+              "id": 117,
+              "name": "Lays Magic Masala Chips",
+              "imageUrl": "https://th.bing.com/th/id/OIP.sPOvvaQH_Gr54R-65jYYPAHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Masala-flavored potato chips with a crunchy texture.",
+              "price": {
+                "original": 60,
+                "discounted": 55
+              },
+              "expd": "2025-06-15",
+              "ecoDeal": false,
+              "stock": 200,
+              "unit": "200g",
+              "category": "Snacks",
+              "tags": ["Chips", "Spicy", "Lays"],
+              "brand": "Lays",
+              "subCategory": "Indian Snacks"
+            },
+            {
+              "id": 118,
+              "name": "Haldiram's Moong Dal",
+              "imageUrl": "https://th.bing.com/th/id/OIP.LU2pYN3I9hunDdedsIXbagHaIq?w=168&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Crispy and salty moong dal namkeen, a perfect tea-time snack.",
+              "price": {
+                "original": 90,
+                "discounted": 85
+              },
+              "expd": "2025-05-30",
+              "ecoDeal": false,
+              "stock": 120,
+              "unit": "300g",
+              "category": "Snacks",
+              "tags": ["Namkeen", "Crispy", "Haldiram"],
+              "brand": "Haldiram's",
+              "subCategory": "Indian Snacks"
+            }
+          ]
+        },
+        {
+          "name": "Drinks",
+          "products": [
+            {
+              "id": 119,
+              "name": "Tropicana Orange Juice",
+              "imageUrl": "https://th.bing.com/th/id/OIP.-zACjsrlnn1V2K6XOEawIgHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Refreshing orange juice with no added preservatives.",
+              "price": {
+                "original": 150,
+                "discounted": 140
+              },
+              "expd": "2025-07-10",
+              "ecoDeal": false,
+              "stock": 100,
+              "unit": "1L",
+              "category": "Drinks",
+              "tags": ["Juice", "Orange", "Tropicana"],
+              "brand": "Tropicana",
+              "subCategory": "Fruit Juices"
+            },
+            {
+              "id": 120,
+              "name": "Real Mixed Fruit Juice",
+              "imageUrl": "https://th.bing.com/th/id/OIP.ttnBR1CarHBnZ9LobEO6awAAAA?w=166&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "A delicious blend of fruit juices, enriched with vitamins.",
+              "price": {
+                "original": 140,
+                "discounted": 130
+              },
+              "expd": "2025-08-05",
+              "ecoDeal": false,
+              "stock": 90,
+              "unit": "1L",
+              "category": "Drinks",
+              "tags": ["Juice", "Mixed Fruit", "Real"],
+              "brand": "Real",
+              "subCategory": "Fruit Juices"
+            },
+            {
+              "id": 121,
+              "name": "Paper Boat Mango Juice",
+              "imageUrl": "https://th.bing.com/th/id/OIP.g_GmXfleaI_h7eH7dhxlJAHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Thick and pulpy mango juice with no artificial flavors.",
+              "price": {
+                "original": 100,
+                "discounted": 95
+              },
+              "expd": "2025-06-20",
+              "ecoDeal": false,
+              "stock": 80,
+              "unit": "750ml",
+              "category": "Drinks",
+              "tags": ["Juice", "Mango", "Paper Boat"],
+              "brand": "Paper Boat",
+              "subCategory": "Fruit Juices"
+            },
+            {
+              "id": 122,
+              "name": "B Natural Guava Juice",
+              "imageUrl": "https://th.bing.com/th/id/OIP.dxXDM7G4VrHvDaOleLKxvAHaH7?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Rich and thick guava juice made from natural pulp.",
+              "price": {
+                "original": 120,
+                "discounted": 110
+              },
+              "expd": "2025-07-25",
+              "ecoDeal": true,
+              "stock": 85,
+              "unit": "1L",
+              "category": "Drinks",
+              "tags": ["Juice", "Guava", "B Natural"],
+              "brand": "B Natural",
+              "subCategory": "Fruit Juices"
+            },
+            {
+              "id": 123,
+              "name": "Coca-Cola",
+              "imageUrl": "https://th.bing.com/th/id/OIP.Qmydmtae1QtfPdBi7Fj9LwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+              "description": "Classic fizzy drink with a refreshing cola taste.",
+              "price": {
+                "original": 90,
+                "discounted": 85
+              },
+              "expd": "2025-09-15",
+              "ecoDeal": false,
+              "stock": 150,
+              "unit": "1.5L",
+              "category": "Drinks",
+              "tags": ["Soft Drink", "Cola", "Coca-Cola"],
+              "brand": "Coca-Cola",
+              "subCategory": "Soft Drinks"
+            },
+            {
+              "id": 124,
+              "name": "Pepsi",
+              "imageUrl": "https://th.bing.com/th/id/OIP.JRqPhjhZBX0-RzZLYlEqrQHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Cool and refreshing cola drink with a bold taste.",
+              "price": {
+                "original": 85,
+                "discounted": 80
+              },
+              "expd": "2025-08-10",
+              "ecoDeal": false,
+              "stock": 140,
+              "unit": "1.5L",
+              "category": "Drinks",
+              "tags": ["Soft Drink", "Cola", "Pepsi"],
+              "brand": "Pepsi",
+              "subCategory": "Soft Drinks"
+            },
+            {
+              "id": 125,
+              "name": "Sprite",
+              "imageUrl": "https://th.bing.com/th/id/OIP.ROK-CLc289OZL7ac-8zibQHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Refreshing lemon-lime soft drink with a crisp taste.",
+              "price": {
+                "original": 80,
+                "discounted": 75
+              },
+              "expd": "2025-07-30",
+              "ecoDeal": true,
+              "stock": 130,
+              "unit": "1.5L",
+              "category": "Drinks",
+              "tags": ["Soft Drink", "Lemon", "Sprite"],
+              "brand": "Sprite",
+              "subCategory": "Soft Drinks"
+            },
+            {
+              "id": 126,
+              "name": "Thums Up",
+              "imageUrl": "https://th.bing.com/th/id/OIP.GQMz5wzNBOUNFN-I3QNY7QHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Strong and bold cola-flavored soft drink.",
+              "price": {
+                "original": 90,
+                "discounted": 85
+              },
+              "expd": "2025-09-05",
+              "ecoDeal": false,
+              "stock": 120,
+              "unit": "1.5L",
+              "category": "Drinks",
+              "tags": ["Soft Drink", "Cola", "Thums Up"],
+              "brand": "Thums Up",
+              "subCategory": "Soft Drinks"
+            },
+            {
+              "id": 127,
+              "name": "Tata Tea Gold",
+              "imageUrl": "https://th.bing.com/th/id/OIP.ONOtFo4Tg-gaStjhZhyanwHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Rich and aromatic Assam tea blend for a perfect cup.",
+              "price": {
+                "original": 250,
+                "discounted": 230
+              },
+              "expd": "2025-12-20",
+              "ecoDeal": false,
+              "stock": 100,
+              "unit": "500g",
+              "category": "Drinks",
+              "tags": ["Tea", "Assam Tea", "Tata"],
+              "brand": "Tata",
+              "subCategory": "Tea & Coffee"
+            },
+            {
+              "id": 128,
+              "name": "Red Label Tea",
+              "imageUrl": "https://th.bing.com/th/id/OIP.HAvr8_mifxytAiehiAw2JQHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "A blend of taste and strength, perfect for Indian chai.",
+              "price": {
+                "original": 220,
+                "discounted": 210
+              },
+              "expd": "2025-11-30",
+              "ecoDeal": true,
+              "stock": 90,
+              "unit": "500g",
+              "category": "Drinks",
+              "tags": ["Tea", "Chai", "Red Label"],
+              "brand": "Red Label",
+              "subCategory": "Tea & Coffee"
+            },
+            {
+              "id": 129,
+              "name": "Nescafé Classic Coffee",
+              "imageUrl": "https://th.bing.com/th/id/OIP.I-gpmIzQ4JFfyW3botUQ_QHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Rich and flavorful instant coffee for a refreshing start.",
+              "price": {
+                "original": 350,
+                "discounted": 320
+              },
+              "expd": "2026-03-15",
+              "ecoDeal": false,
+              "stock": 80,
+              "unit": "200g",
+              "category": "Drinks",
+              "tags": ["Coffee", "Instant Coffee", "Nescafé"],
+              "brand": "Nescafé",
+              "subCategory": "Tea & Coffee"
+            },
+            {
+              "id": 130,
+              "name": "Bru Gold Coffee",
+              "imageUrl": "https://th.bing.com/th/id/OIP.VMpuTyOiUtpRo3Imv0qrPgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Premium coffee blend with a rich aroma and smooth taste.",
+              "price": {
+                "original": 375,
+                "discounted": 350
+              },
+              "expd": "2026-02-10",
+              "ecoDeal": false,
+              "stock": 75,
+              "unit": "200g",
+              "category": "Drinks",
+              "tags": ["Coffee", "Bru", "Instant Coffee"],
+              "brand": "Bru",
+              "subCategory": "Tea & Coffee"
+            },
+            {
+              "id": 131,
+              "name": "Horlicks Classic Malt",
+              "imageUrl": "https://th.bing.com/th/id/OIP.fXspgxrLlj8YP1ZPQkU-nQHaHa?w=216&h=215&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Nourishing malt-based drink for strength and energy.",
+              "price": {
+                "original": 290,
+                "discounted": 275
+              },
+              "expd": "2026-01-25",
+              "ecoDeal": false,
+              "stock": 120,
+              "unit": "500g",
+              "category": "Drinks",
+              "tags": ["Health Drink", "Malt", "Horlicks"],
+              "brand": "Horlicks",
+              "subCategory": "Energy & Health Drinks"
+            },
+            {
+              "id": 132,
+              "name": "Bournvita",
+              "imageUrl": "https://th.bing.com/th/id/OIP.vDIgluKSDAjmXWyaK2YqjQHaHa?w=212&h=212&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Chocolate-flavored health drink for strength and stamina.",
+              "price": {
+                "original": 310,
+                "discounted": 290
+              },
+              "expd": "2025-12-30",
+              "ecoDeal": true,
+              "stock": 110,
+              "unit": "500g",
+              "category": "Drinks",
+              "tags": ["Health Drink", "Chocolate", "Bournvita"],
+              "brand": "Cadbury",
+              "subCategory": "Energy & Health Drinks"
+            },
+            {
+              "id": 133,
+              "name": "Red Bull Energy Drink",
+              "imageUrl": "https://th.bing.com/th/id/OIP.y56zEyzYSlaUnXDd4QM5FgHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Boosts energy and mental performance with taurine.",
+              "price": {
+                "original": 110,
+                "discounted": 100
+              },
+              "expd": "2025-09-15",
+              "ecoDeal": false,
+              "stock": 200,
+              "unit": "250ml",
+              "category": "Drinks",
+              "tags": ["Energy Drink", "Caffeine", "Red Bull"],
+              "brand": "Red Bull",
+              "subCategory": "Energy & Health Drinks"
+            },
+            {
+              "id": 134,
+              "name": "Glucon-D Instant Energy",
+              "imageUrl": "https://th.bing.com/th/id/OIP.wog17V_ORyrBoll90ubNiAHaHa?w=207&h=207&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+              "description": "Instant energy boost with glucose and essential vitamins.",
+              "price": {
+                "original": 180,
+                "discounted": 170
+              },
+              "expd": "2026-04-10",
+              "ecoDeal": false,
+              "stock": 150,
+              "unit": "500g",
+              "category": "Drinks",
+              "tags": ["Health Drink", "Glucose", "Glucon-D"],
+              "brand": "Glucon-D",
+              "subCategory": "Energy & Health Drinks"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

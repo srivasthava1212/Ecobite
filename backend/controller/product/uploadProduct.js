@@ -1,31 +1,36 @@
-const uploadProductPermission = require("../../helpers/permission")
-const productModel = require("../../models/productModel")
+const mongoose = require("mongoose");
+const productModel = require("../../models/productModel");
+const fs = require("fs");
 
-async function UploadProductController(req,res){
-    try{
-        const sessionUserId = req.userId
+// Load environment variables
+require("dotenv").config();
 
-        if(!uploadProductPermission(sessionUserId)){
-            throw new Error("Permission denied")
-        }
-    
-        const uploadProduct = new productModel(req.body)
-        const saveProduct = await uploadProduct.save()
+// Connect to MongoDB
+mongoose
+  .connect(process.env.MONGODB_URI)
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Failed to connect to MongoDB", err));
 
-        res.status(201).json({
-            message : "Product upload successfully",
-            error : false,
-            success : true,
-            data : saveProduct
-        })
+// Read JSON files
+const snacksAndDrinks = JSON.parse(
+  fs.readFileSync("./data/SnacksAndDrinks.json", "utf-8")
+);
+const groceryAndKitchen = JSON.parse(
+  fs.readFileSync("./data/GroceryAndKitchen.json", "utf-8")
+);
 
-    }catch(err){
-        res.status(400).json({
-            message : err.message || err,
-            error : true,
-            success : false
-        })
-    }
-}
+// Function to upload products
+const uploadProduct = async (req, res) => {
+  try {
+    // Your product upload logic here
+    res
+      .status(200)
+      .json({ success: true, message: "Product uploaded successfully!" });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ success: false, message: "Error uploading product", error });
+  }
+};
 
-module.exports = UploadProductController
+module.exports = uploadProduct;
