@@ -1,0 +1,2848 @@
+[
+    {
+        "name": "Cheddar Cheese",
+        "imageUrl": "https://th.bing.com/th/id/OIP.YBhXhCz4fpSInlA2tAbIMwHaFj?w=211&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and creamy cheddar cheese, perfect for sandwiches and cooking.",
+        "price": {
+            "original": 250,
+            "discounted": 199
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": true,
+        "stock": 50,
+        "unit": "200g",
+        "category": "Dairy",
+        "tags": [
+            "cheddar",
+            "cheese",
+            "dairy",
+            "premium"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Cheese"
+    },
+    {
+        "name": "Mozzarella Cheese",
+        "imageUrl": "https://th.bing.com/th/id/OIP.yNIgXVpgYl3VvVECoXSjowHaFj?w=226&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Fresh mozzarella cheese, ideal for pizza and pasta dishes.",
+        "price": {
+            "original": 300,
+            "discounted": 250
+        },
+        "expd": "2025-02-28",
+        "ecoDeal": true,
+        "stock": 30,
+        "unit": "250g",
+        "category": "Dairy",
+        "tags": [
+            "mozzarella",
+            "cheese",
+            "dairy",
+            "fresh"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Cheese"
+    },
+    {
+        "name": "Parmesan Cheese",
+        "imageUrl": "https://th.bing.com/th/id/OIP.TzS32IGwmzxqnjy11ZIVXAHaE8?w=292&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Hard and aged parmesan, perfect for grating over pastas.",
+        "price": {
+            "original": 500,
+            "discounted": 450
+        },
+        "expd": "2025-05-20",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "200g",
+        "category": "Dairy",
+        "tags": [
+            "parmesan",
+            "cheese",
+            "aged",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Cheese"
+    },
+    {
+        "name": "Ricotta Cheese",
+        "imageUrl": "https://th.bing.com/th/id/OIP.e-gx_AKm7G7LtAn_9tujlQHaE7?w=279&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Soft and creamy ricotta cheese, perfect for lasagna and desserts.",
+        "price": {
+            "original": 350,
+            "discounted": 300
+        },
+        "expd": "2025-04-15",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "200g",
+        "category": "Dairy",
+        "tags": [
+            "ricotta",
+            "cheese",
+            "fresh",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Cheese"
+    },
+    {
+        "name": "Cottage Cheese",
+        "imageUrl": "https://th.bing.com/th/id/OIP.kP8KNJkEdLVZ2uXx-72vswHaE8?w=273&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Fresh cottage cheese, a healthier alternative to regular cheese.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-03-25",
+        "ecoDeal": true,
+        "stock": 70,
+        "unit": "250g",
+        "category": "Dairy",
+        "tags": [
+            "cottage",
+            "cheese",
+            "fresh",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Cheese"
+    },
+    {
+        "name": "Amul Full Cream Milk",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QRIg2T_-swbOMqaU15dwyQHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and creamy full cream milk.",
+        "price": {
+            "original": 90,
+            "discounted": 80
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "1L",
+        "category": "Dairy",
+        "tags": [
+            "full cream",
+            "milk",
+            "dairy"
+        ],
+        "brand": "Amul",
+        "subCategory": "Milk"
+    },
+    {
+        "name": "Nestl\u00e9 Low-Fat Milk",
+        "imageUrl": "https://th.bing.com/th/id/OIP.KmGr_SCH-F6Exr8xw1YhwQHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Healthy low-fat milk, perfect for fitness-conscious individuals.",
+        "price": {
+            "original": 85,
+            "discounted": 75
+        },
+        "expd": "2025-03-12",
+        "ecoDeal": true,
+        "stock": 90,
+        "unit": "1L",
+        "category": "Dairy",
+        "tags": [
+            "low fat",
+            "milk",
+            "dairy"
+        ],
+        "brand": "Nestl\u00e9",
+        "subCategory": "Milk"
+    },
+    {
+        "name": "Blue Diamond's Almond Milk",
+        "imageUrl": "https://th.bing.com/th/id/OIP.qP49B6kvUVKsZPBFuKQfgwHaHa?w=218&h=218&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Nutritious almond milk, dairy-free and vegan-friendly.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "1L",
+        "category": "Dairy",
+        "tags": [
+            "almond",
+            "milk",
+            "vegan",
+            "dairy-free"
+        ],
+        "brand": "Blue Diamond",
+        "subCategory": "Milk"
+    },
+    {
+        "name": "Akshayakalpa Organic Milk",
+        "imageUrl": "https://th.bing.com/th/id/OIP.hmJ3VtI-9kK66E6xr3ehdgHaHa?w=184&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Pure organic milk sourced from organic farms.",
+        "price": {
+            "original": 110,
+            "discounted": 95
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "1L",
+        "category": "Dairy",
+        "tags": [
+            "organic",
+            "milk",
+            "dairy"
+        ],
+        "brand": "Akshayakalpa",
+        "subCategory": "Milk"
+    },
+    {
+        "name": "Nestl\u00e9 Skimmed Milk",
+        "imageUrl": "https://th.bing.com/th/id/OIP.jIY7phLkN20m8FSGH5gJegHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Low-calorie skimmed milk.",
+        "price": {
+            "original": 80,
+            "discounted": 70
+        },
+        "expd": "2025-03-18",
+        "ecoDeal": true,
+        "stock": 110,
+        "unit": "1L",
+        "category": "Dairy",
+        "tags": [
+            "skimmed",
+            "milk",
+            "low calorie"
+        ],
+        "brand": "Nestl\u00e9",
+        "subCategory": "Milk"
+    },
+    {
+        "name": "Unsalted Butter",
+        "imageUrl": "https://th.bing.com/th/id/OIP.mp5fGPSK2Tmd9bj9fm5J5gHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Creamy unsalted butter for cooking and baking.",
+        "price": {
+            "original": 180,
+            "discounted": 150
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 40,
+        "unit": "250g",
+        "category": "Dairy",
+        "tags": [
+            "unsalted",
+            "butter",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Butter"
+    },
+    {
+        "name": "Salted Butter",
+        "imageUrl": "https://th.bing.com/th/id/OIP.9W1oZM9DjK50bjvwywoxoAHaFj?w=267&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich salted butter for spreading on bread or adding flavor to dishes.",
+        "price": {
+            "original": 200,
+            "discounted": 180
+        },
+        "expd": "2025-04-05",
+        "ecoDeal": false,
+        "stock": 70,
+        "unit": "250g",
+        "category": "Dairy",
+        "tags": [
+            "salted",
+            "butter",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Butter"
+    },
+    {
+        "name": "Organic Butter",
+        "imageUrl": "https://th.bing.com/th/id/OIP.dAfyvwqqyY5GLVUf8OUokgHaIe?w=157&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich organic butter made from farm-fresh milk.",
+        "price": {
+            "original": 250,
+            "discounted": 220
+        },
+        "expd": "2025-05-01",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "250g",
+        "category": "Dairy",
+        "tags": [
+            "organic",
+            "butter",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Butter"
+    },
+    {
+        "name": "Ghee",
+        "imageUrl": "https://th.bing.com/th/id/OIP.FE5WliHGDw7p1HnuJ19-agHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Pure clarified butter for cooking and adding flavor.",
+        "price": {
+            "original": 350,
+            "discounted": 300
+        },
+        "expd": "2025-06-10",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "ghee",
+            "clarified butter",
+            "organic",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Butter"
+    },
+    {
+        "name": "Peanut Butter",
+        "imageUrl": "https://th.bing.com/th/id/OIP.UUBFLw7_IDVLGVzNFfGtSAHaFj?w=253&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crunchy and creamy peanut butter for sandwiches or snacks.",
+        "price": {
+            "original": 250,
+            "discounted": 220
+        },
+        "expd": "2025-05-10",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "350g",
+        "category": "Dairy",
+        "tags": [
+            "peanut butter",
+            "spread",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Butter"
+    },
+    {
+        "name": "Greek Yogurt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.1i3PhvqxKKR_g_PpTn-1XQAAAA?w=218&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Thick and creamy Greek yogurt.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 120,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "greek",
+            "yogurt",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Yogurt"
+    },
+    {
+        "name": "Flavored Yogurt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.bMbVVmqRi34bhSQUpMS1-wHaFJ?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Delicious yogurt with a variety of flavors.",
+        "price": {
+            "original": 120,
+            "discounted": 100
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": true,
+        "stock": 140,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "flavored",
+            "yogurt",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Yogurt"
+    },
+    {
+        "name": "Natural Yogurt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.h-UVY5dKoilr-VFp5KjyzwHaE6?w=275&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Pure natural yogurt, no added sugars.",
+        "price": {
+            "original": 100,
+            "discounted": 90
+        },
+        "expd": "2025-03-18",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "natural",
+            "yogurt",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Yogurt"
+    },
+    {
+        "name": "Low-Fat Yogurt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.zUhKTFUeoExYblhnY3vgLQHaFi?w=266&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Healthy low-fat yogurt for fitness enthusiasts.",
+        "price": {
+            "original": 110,
+            "discounted": 95
+        },
+        "expd": "2025-03-25",
+        "ecoDeal": false,
+        "stock": 110,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "low-fat",
+            "yogurt",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Yogurt"
+    },
+    {
+        "name": "Probiotic Yogurt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.fENlJf9Fpln-OfUlpqKhAwHaE6?w=298&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Probiotic yogurt with gut-health benefits.",
+        "price": {
+            "original": 160,
+            "discounted": 140
+        },
+        "expd": "2025-04-05",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "probiotic",
+            "yogurt",
+            "dairy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Yogurt"
+    },
+    {
+        "name": "White Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.BEnp2-cv69bnz2M7w_02oAHaLH?w=116&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Soft and fluffy white bread, perfect for sandwiches.",
+        "price": {
+            "original": 40,
+            "discounted": 35
+        },
+        "expd": "2025-02-25",
+        "ecoDeal": true,
+        "stock": 150,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "white bread",
+            "soft",
+            "sandwich"
+        ],
+        "brand": "BrandName",
+        "subCategory": "White Breads"
+    },
+    {
+        "name": "Whole Wheat Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Mb7Hnv53qPU2wMTPbq2MlQHaLH?w=123&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Healthy and nutritious whole wheat bread, high in fiber.",
+        "price": {
+            "original": 45,
+            "discounted": 40
+        },
+        "expd": "2025-02-20",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "whole wheat",
+            "fiber-rich",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "White Breads"
+    },
+    {
+        "name": "White Bread with Butter",
+        "imageUrl": "https://th.bing.com/th/id/OIP.866UZ4NHLQZg9bOMgCI0EgHaFb?w=272&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "White bread with a buttered flavor for a soft taste.",
+        "price": {
+            "original": 50,
+            "discounted": 45
+        },
+        "expd": "2025-02-22",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "white bread",
+            "butter",
+            "soft"
+        ],
+        "brand": "BrandName",
+        "subCategory": "White Breads"
+    },
+    {
+        "name": "Milk Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WmTQ93ihA4dACnkIfIAhywHaJ3?w=182&h=243&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and soft milk bread with a slightly sweet taste.",
+        "price": {
+            "original": 55,
+            "discounted": 50
+        },
+        "expd": "2025-02-28",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "milk bread",
+            "soft",
+            "sweet"
+        ],
+        "brand": "BrandName",
+        "subCategory": "White Breads"
+    },
+    {
+        "name": "Butter Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Fnleb6ULSz4Z4L8Gz7MOtQHaNK?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Delicious bread with a buttery flavor, perfect for breakfast.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "butter bread",
+            "soft",
+            "breakfast"
+        ],
+        "brand": "BrandName",
+        "subCategory": "White Breads"
+    },
+    {
+        "name": "Brown Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QnWB8VAfZ5a4Jlx-feiqRgHaEK?w=322&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Whole wheat brown bread, rich in fiber and nutrients.",
+        "price": {
+            "original": 55,
+            "discounted": 50
+        },
+        "expd": "2025-03-01",
+        "ecoDeal": true,
+        "stock": 110,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "brown bread",
+            "fiber-rich",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Brown Breads"
+    },
+    {
+        "name": "Multigrain Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.scVTD0FaQBQUEFXhtyBTRAHaE7?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Bread made with a mix of grains, full of healthy fibers.",
+        "price": {
+            "original": 70,
+            "discounted": 65
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 90,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "multigrain",
+            "healthy",
+            "fiber-rich"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Brown Breads"
+    },
+    {
+        "name": "Rye Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.zALwGJjNp-bPipUam8c6GwHaE7?w=275&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Traditional rye bread, perfect for a hearty sandwich.",
+        "price": {
+            "original": 75,
+            "discounted": 70
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "rye",
+            "bread",
+            "hearty"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Brown Breads"
+    },
+    {
+        "name": "Oatmeal Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.j9pslkVGPxlZr9JZhZBXTwHaLH?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Oatmeal bread made with oats for extra fiber and nutrition.",
+        "price": {
+            "original": 65,
+            "discounted": 60
+        },
+        "expd": "2025-03-20",
+        "ecoDeal": false,
+        "stock": 70,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "oatmeal",
+            "bread",
+            "fiber"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Brown Breads"
+    },
+    {
+        "name": "Buckwheat Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.VBUz0xRvgOEezfoUSifRxAHaJQ?w=182&h=228&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Gluten-free buckwheat bread, ideal for gluten-sensitive diets.",
+        "price": {
+            "original": 80,
+            "discounted": 75
+        },
+        "expd": "2025-03-25",
+        "ecoDeal": true,
+        "stock": 60,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "buckwheat",
+            "gluten-free",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Brown Breads"
+    },
+    {
+        "name": "Classic Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.iewvSuauvSsdI0GQi6Fc5wHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Traditional sourdough with a tangy taste and crispy crust.",
+        "price": {
+            "original": 100,
+            "discounted": 90
+        },
+        "expd": "2025-03-30",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "sourdough",
+            "classic",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Sourdough Breads"
+    },
+    {
+        "name": "Whole Grain Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.M58L_XJRDPuQaZJdSwdA0AHaLJ?w=182&h=274&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Sourdough made with whole grains, for a healthier option.",
+        "price": {
+            "original": 110,
+            "discounted": 100
+        },
+        "expd": "2025-04-05",
+        "ecoDeal": true,
+        "stock": 60,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "whole grain",
+            "sourdough",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Sourdough Breads"
+    },
+    {
+        "name": "Garlic Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.vTIBHjP8LW5O-ZigAb92nAHaLH?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Sourdough bread infused with the flavor of garlic.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-04-10",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "garlic",
+            "sourdough",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Sourdough Breads"
+    },
+    {
+        "name": "Seeded Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.-f__8c5JYtFFuyE_hiz9jwHaLG?w=126&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Sourdough bread topped with a mix of healthy seeds.",
+        "price": {
+            "original": 130,
+            "discounted": 120
+        },
+        "expd": "2025-04-15",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "seeded",
+            "sourdough",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Sourdough Breads"
+    },
+    {
+        "name": "Olive Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.2EYM3ZDC31i1hVWUtGHVhwHaLH?w=122&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Sourdough bread made with green olives for extra flavor.",
+        "price": {
+            "original": 140,
+            "discounted": 130
+        },
+        "expd": "2025-04-20",
+        "ecoDeal": true,
+        "stock": 70,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "olive",
+            "sourdough",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Sourdough Breads"
+    },
+    {
+        "name": "Gluten-Free White Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.UMPa9-hutQSHw1GDh4BQkwHaDw?w=331&h=177&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Gluten-free white bread for those with gluten sensitivity.",
+        "price": {
+            "original": 90,
+            "discounted": 85
+        },
+        "expd": "2025-04-25",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "gluten-free",
+            "white bread",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Gluten-Free Breads"
+    },
+    {
+        "name": "Gluten-Free Multigrain Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.E9-4SP8MGhthvNGqf1qstAHaHX?w=185&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Gluten-free multigrain bread, perfect for a healthy diet.",
+        "price": {
+            "original": 95,
+            "discounted": 90
+        },
+        "expd": "2025-05-01",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "gluten-free",
+            "multigrain",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Gluten-Free Breads"
+    },
+    {
+        "name": "Gluten-Free Sourdough",
+        "imageUrl": "https://th.bing.com/th/id/OIP.wiz1791jVbGd22l5WnDH0QHaE6?w=182&h=121&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Gluten-free sourdough bread with a tangy taste.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-05-05",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "gluten-free",
+            "sourdough",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Gluten-Free Breads"
+    },
+    {
+        "name": "Gluten-Free Rye Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.wiz1791jVbGd22l5WnDH0QHaE6?w=182&h=121&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Gluten-free rye bread, perfect for sensitive stomachs.",
+        "price": {
+            "original": 130,
+            "discounted": 120
+        },
+        "expd": "2025-05-10",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "gluten-free",
+            "rye",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Gluten-Free Breads"
+    },
+    {
+        "name": "Gluten-Free Oatmeal Bread",
+        "imageUrl": "https://th.bing.com/th/id/OIP.wiz1791jVbGd22l5WnDH0QHaE6?w=182&h=121&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Healthy gluten-free oatmeal bread.",
+        "price": {
+            "original": 100,
+            "discounted": 90
+        },
+        "expd": "2025-05-15",
+        "ecoDeal": true,
+        "stock": 55,
+        "unit": "1 loaf",
+        "category": "Breads",
+        "tags": [
+            "gluten-free",
+            "oatmeal",
+            "bread"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Gluten-Free Breads"
+    },
+    {
+        "name": "Fresh Chicken Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.opX-xknda07O-kBOXKcr9gHaFj?w=241&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Freshly sourced chicken eggs, high in protein.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-02-25",
+        "ecoDeal": true,
+        "stock": 200,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "chicken eggs",
+            "fresh",
+            "protein"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Chicken Eggs"
+    },
+    {
+        "name": "Organic Chicken Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WyXhyFudo7T6BTKRpcIXRQHaFj?w=231&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Organic chicken eggs from free-range chickens.",
+        "price": {
+            "original": 80,
+            "discounted": 75
+        },
+        "expd": "2025-02-28",
+        "ecoDeal": false,
+        "stock": 150,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "organic",
+            "chicken eggs",
+            "free-range"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Chicken Eggs"
+    },
+    {
+        "name": "Brown Chicken Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP._I3TZzoocRPm5tw9hLL6lgHaE8?w=221&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Nutritious brown eggs from healthy chickens.",
+        "price": {
+            "original": 70,
+            "discounted": 65
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": true,
+        "stock": 180,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "brown eggs",
+            "chicken",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Chicken Eggs"
+    },
+    {
+        "name": "Free-Range Chicken Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.lasASyzpKq7hpI8lYMJJiwHaHZ?w=186&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Free-range chicken eggs, laid by hens with natural diets.",
+        "price": {
+            "original": 85,
+            "discounted": 80
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "free-range",
+            "chicken eggs",
+            "natural diet"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Chicken Eggs"
+    },
+    {
+        "name": "Omega-3 Chicken Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.eVSUJpNEffM8btaf0vAreAHaD4?w=339&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Omega-3 enriched chicken eggs, great for heart health.",
+        "price": {
+            "original": 90,
+            "discounted": 85
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 100,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "omega-3",
+            "chicken eggs",
+            "heart health"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Chicken Eggs"
+    },
+    {
+        "name": "Fresh Duck Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.W0IULFg9OYG7RJ3emWuDEAHaHa?w=175&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Fresh and rich duck eggs for your special dishes.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-02-22",
+        "ecoDeal": true,
+        "stock": 80,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "duck eggs",
+            "fresh",
+            "rich"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck Eggs"
+    },
+    {
+        "name": "Organic Duck Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.M84yzcuj09g0bJUuLO7BagHaE8?w=306&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Organic duck eggs with a rich, flavorful taste.",
+        "price": {
+            "original": 150,
+            "discounted": 140
+        },
+        "expd": "2025-02-27",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "organic",
+            "duck eggs",
+            "rich taste"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck Eggs"
+    },
+    {
+        "name": "Free-Range Duck Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.NASUF3PZcfQ1ghP1mH2APAHaE8?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Free-range duck eggs with a higher yolk-to-white ratio.",
+        "price": {
+            "original": 130,
+            "discounted": 120
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "free-range",
+            "duck eggs",
+            "high yolk"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck Eggs"
+    },
+    {
+        "name": "Salted Duck Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.0zw6U-Hm_mnoaQonQoZjlQHaKd?w=136&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Salted duck eggs for a savory, delicious flavor.",
+        "price": {
+            "original": 140,
+            "discounted": 130
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "salted",
+            "duck eggs",
+            "savory"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck Eggs"
+    },
+    {
+        "name": "Duck Eggs Omega-3",
+        "imageUrl": "https://th.bing.com/th/id/OIP.CjpS2fvszFMNgH4eUFiXpgAAAA?w=233&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Omega-3 enriched duck eggs for added health benefits.",
+        "price": {
+            "original": 160,
+            "discounted": 150
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "omega-3",
+            "duck eggs",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck Eggs"
+    },
+    {
+        "name": "Fresh Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.tcL4kVcDrcG2jYRhJOycYAHaFS?w=231&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Fresh, small and delicate quail eggs, perfect for gourmet dishes.",
+        "price": {
+            "original": 180,
+            "discounted": 170
+        },
+        "expd": "2025-02-28",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "quail eggs",
+            "gourmet",
+            "fresh"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Quail Eggs"
+    },
+    {
+        "name": "Organic Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QY0uriRZrIrk3YDtF9E11AHaE8?w=276&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Organic quail eggs for a healthier choice.",
+        "price": {
+            "original": 200,
+            "discounted": 190
+        },
+        "expd": "2025-03-05",
+        "ecoDeal": true,
+        "stock": 50,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "organic",
+            "quail eggs",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Quail Eggs"
+    },
+    {
+        "name": "Pickled Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QK3igQJwEGWqI45jo1YQ3QHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Pickled quail eggs with a unique tangy taste.",
+        "price": {
+            "original": 220,
+            "discounted": 210
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 70,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "pickled",
+            "quail eggs",
+            "tangy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Quail Eggs"
+    },
+    {
+        "name": "Quail Eggs Omega-3",
+        "imageUrl": "https://th.bing.com/th/id/OIP.cLh1i0vXgVEa7l8OZVz4XgAAAA?w=262&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Omega-3 enriched quail eggs with additional health benefits.",
+        "price": {
+            "original": 250,
+            "discounted": 240
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "omega-3",
+            "quail eggs",
+            "healthy"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Quail Eggs"
+    },
+    {
+        "name": "Smoked Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.9RUZtako_aTvEivpuIS3yAHaEK?w=273&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Smoked quail eggs with a rich, smoky flavor.",
+        "price": {
+            "original": 270,
+            "discounted": 260
+        },
+        "expd": "2025-03-20",
+        "ecoDeal": false,
+        "stock": 30,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "smoked",
+            "quail eggs",
+            "flavorful"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Quail Eggs"
+    },
+    {
+        "name": "Mixed Duck and Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.SPO3dPJypuWjJhwhULbgOQHaE8?w=285&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "A mix of fresh duck and quail eggs, for variety in your diet.",
+        "price": {
+            "original": 240,
+            "discounted": 230
+        },
+        "expd": "2025-02-28",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "mixed",
+            "duck eggs",
+            "quail eggs",
+            "fresh"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck & Quail Eggs Mix"
+    },
+    {
+        "name": "Pickled Duck and Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.lv5LMqaBi0OkXKwo58KkWwHaFf?w=228&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "A savory mix of pickled duck and quail eggs.",
+        "price": {
+            "original": 260,
+            "discounted": 250
+        },
+        "expd": "2025-03-10",
+        "ecoDeal": true,
+        "stock": 90,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "pickled",
+            "duck eggs",
+            "quail eggs",
+            "savory"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck & Quail Eggs Mix"
+    },
+    {
+        "name": "Omega-3 Mixed Duck and Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.lv5LMqaBi0OkXKwo58KkWwHaFf?w=228&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Omega-3 enriched duck and quail eggs.",
+        "price": {
+            "original": 300,
+            "discounted": 290
+        },
+        "expd": "2025-03-15",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "omega-3",
+            "mixed eggs",
+            "duck eggs",
+            "quail eggs"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck & Quail Eggs Mix"
+    },
+    {
+        "name": "Smoked Duck and Quail Eggs",
+        "imageUrl": "https://th.bing.com/th/id/OIP.lv5LMqaBi0OkXKwo58KkWwHaFf?w=228&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Smoked duck and quail eggs with a delicious smoky flavor.",
+        "price": {
+            "original": 320,
+            "discounted": 310
+        },
+        "expd": "2025-03-20",
+        "ecoDeal": false,
+        "stock": 70,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "smoked",
+            "duck eggs",
+            "quail eggs",
+            "flavored"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck & Quail Eggs Mix"
+    },
+    {
+        "name": "Fresh Duck and Quail Eggs Mix",
+        "imageUrl": "https://th.bing.com/th/id/OIP.lv5LMqaBi0OkXKwo58KkWwHaFf?w=228&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Fresh mixed duck and quail eggs.",
+        "price": {
+            "original": 230,
+            "discounted": 220
+        },
+        "expd": "2025-03-25",
+        "ecoDeal": true,
+        "stock": 110,
+        "unit": "6 pieces",
+        "category": "Eggs",
+        "tags": [
+            "fresh",
+            "duck eggs",
+            "quail eggs",
+            "mix"
+        ],
+        "brand": "BrandName",
+        "subCategory": "Duck & Quail Eggs Mix"
+    },
+    {
+        "name": "Aashirvaad Whole Wheat Atta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.CnosyMs0_QcqBMclC1BqkAHaHa?w=205&h=205&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Made from the finest quality wheat grains.",
+        "price": {
+            "original": 638,
+            "discounted": 598
+        },
+        "expd": "2025-12-30",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "10 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "whole wheat",
+            "flour",
+            "healthy"
+        ],
+        "brand": "Aashirvaad",
+        "subCategory": "Atta"
+    },
+    {
+        "name": "Patanjali Whole Wheat Atta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.qaJIdPnp0PD88IGKVkEfvgHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "100% whole wheat flour with no added maida.",
+        "price": {
+            "original": 620,
+            "discounted": 599
+        },
+        "expd": "2025-11-15",
+        "ecoDeal": false,
+        "stock": 95,
+        "unit": "10 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "whole wheat",
+            "organic",
+            "flour"
+        ],
+        "brand": "Patanjali",
+        "subCategory": "Atta"
+    },
+    {
+        "name": "Fortune Chakki Fresh Atta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.GzZDTYKrfIqrFC98tiz8pQHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Made from high-quality wheat grains with chakki grinding.",
+        "price": {
+            "original": 580,
+            "discounted": 540
+        },
+        "expd": "2025-10-20",
+        "ecoDeal": true,
+        "stock": 75,
+        "unit": "10 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "chakki atta",
+            "fresh",
+            "flour"
+        ],
+        "brand": "Fortune",
+        "subCategory": "Atta"
+    },
+    {
+        "name": "Nature Fresh Sampoorna Chakki Atta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.thUtImBgP_x0bcXHEVMzcgHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium chakki atta for soft and fluffy rotis.",
+        "price": {
+            "original": 600,
+            "discounted": 550
+        },
+        "expd": "2025-09-25",
+        "ecoDeal": true,
+        "stock": 85,
+        "unit": "10 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "chakki atta",
+            "healthy",
+            "flour"
+        ],
+        "brand": "Nature Fresh",
+        "subCategory": "Atta"
+    },
+    {
+        "name": "Daawat Basmati Rice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.RP7iuU9JlYOPptBtRqDh3QHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium long-grain basmati rice for aromatic dishes.",
+        "price": {
+            "original": 1200,
+            "discounted": 1100
+        },
+        "expd": "2026-03-15",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "5 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "basmati rice",
+            "premium",
+            "long grain"
+        ],
+        "brand": "Daawat",
+        "subCategory": "Rice"
+    },
+    {
+        "name": "India Gate Classic Basmati Rice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.iZTxndLA8riH2FcMZ6GVtgHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Aged basmati rice with rich aroma and fluffy texture.",
+        "price": {
+            "original": 1350,
+            "discounted": 1250
+        },
+        "expd": "2026-02-20",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "5 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "basmati rice",
+            "aromatic",
+            "aged"
+        ],
+        "brand": "India Gate",
+        "subCategory": "Rice"
+    },
+    {
+        "name": "Fortune Sunlite Refined Sunflower Oil",
+        "imageUrl": "https://th.bing.com/th/id/OIP.XxgcLWMWiulNMPzt6NRUPwHaK7?w=127&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Light and healthy refined sunflower oil.",
+        "price": {
+            "original": 190,
+            "discounted": 175
+        },
+        "expd": "2026-08-10",
+        "ecoDeal": false,
+        "stock": 100,
+        "unit": "1 L",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "sunflower oil",
+            "refined",
+            "healthy"
+        ],
+        "brand": "Fortune",
+        "subCategory": "Edible Oils"
+    },
+    {
+        "name": "Saffola Gold Blended Oil",
+        "imageUrl": "https://th.bing.com/th/id/OIP.sBY2GVxw_UC4ERFVtd3MdAHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Blended oil for heart health and better immunity.",
+        "price": {
+            "original": 195,
+            "discounted": 180
+        },
+        "expd": "2026-07-15",
+        "ecoDeal": true,
+        "stock": 80,
+        "unit": "1 L",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "heart healthy",
+            "blended oil"
+        ],
+        "brand": "Saffola",
+        "subCategory": "Edible Oils"
+    },
+    {
+        "name": "Tata Sampann Toor Dal",
+        "imageUrl": "https://th.bing.com/th/id/OIP.tIthK3o9Erz-bSSaxa3iSgHaJ5?w=140&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Unpolished toor dal with natural goodness.",
+        "price": {
+            "original": 180,
+            "discounted": 160
+        },
+        "expd": "2026-05-10",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "1 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "toor dal",
+            "unpolished",
+            "protein rich"
+        ],
+        "brand": "Tata Sampann",
+        "subCategory": "Dals & Pulses"
+    },
+    {
+        "name": "Fortune Moong Dal",
+        "imageUrl": "https://th.bing.com/th/id/OIP.fOVW6MFGm7CnW3kwl1RyxAHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "High-quality moong dal for nutritious meals.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2026-06-12",
+        "ecoDeal": false,
+        "stock": 85,
+        "unit": "1 kg",
+        "category": "Atta, Rice, Oil & Dals",
+        "tags": [
+            "moong dal",
+            "protein rich",
+            "nutritious"
+        ],
+        "brand": "Fortune",
+        "subCategory": "Dals & Pulses"
+    },
+    {
+        "name": "Everest Black Pepper Whole",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Pn5ar1sTucLE8bDv-LSzagHaLA?w=131&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Whole black pepper for rich aroma and taste.",
+        "price": {
+            "original": 200,
+            "discounted": 180
+        },
+        "expd": "2025-03-20",
+        "ecoDeal": true,
+        "stock": 50,
+        "unit": "100g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "black pepper",
+            "whole"
+        ],
+        "brand": "Everest",
+        "subCategory": "Whole Spices"
+    },
+    {
+        "name": "Catch Jeera Whole",
+        "imageUrl": "https://th.bing.com/th/id/OIP.kZtI1f4pCyw6BanVG6mv4wHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium quality whole cumin seeds.",
+        "price": {
+            "original": 110,
+            "discounted": 95
+        },
+        "expd": "2025-06-15",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "100g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "cumin",
+            "jeera"
+        ],
+        "brand": "Catch",
+        "subCategory": "Whole Spices"
+    },
+    {
+        "name": "MDH Coriander Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Kp5CMFjia7TpIoyStIFZAAHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Aromatic coriander seeds for flavorful dishes.",
+        "price": {
+            "original": 100,
+            "discounted": 85
+        },
+        "expd": "2025-04-30",
+        "ecoDeal": false,
+        "stock": 45,
+        "unit": "200g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "coriander",
+            "whole"
+        ],
+        "brand": "MDH",
+        "subCategory": "Whole Spices"
+    },
+    {
+        "name": "Tata Sampann Mustard Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.h9G8rsktcDC2GRIAX-leoQHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "High-quality mustard seeds for seasoning.",
+        "price": {
+            "original": 85,
+            "discounted": 70
+        },
+        "expd": "2025-03-12",
+        "ecoDeal": true,
+        "stock": 55,
+        "unit": "100g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "mustard",
+            "whole"
+        ],
+        "brand": "Tata Sampann",
+        "subCategory": "Whole Spices"
+    },
+    {
+        "name": "Everest Red Chilli Powder",
+        "imageUrl": "https://th.bing.com/th/id/OIP.loPG1Lf6qQL9mrVXXPrBawHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Pure and spicy red chilli powder.",
+        "price": {
+            "original": 110,
+            "discounted": 95
+        },
+        "expd": "2025-08-10",
+        "ecoDeal": false,
+        "stock": 65,
+        "unit": "200g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "chilli",
+            "powder"
+        ],
+        "brand": "Everest",
+        "subCategory": "Ground Spices"
+    },
+    {
+        "name": "MDH Turmeric Powder",
+        "imageUrl": "https://th.bing.com/th/id/OIP.g7dl5eSseXyL1rmd-XCxtQHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Organic turmeric powder for cooking.",
+        "price": {
+            "original": 140,
+            "discounted": 120
+        },
+        "expd": "2025-05-22",
+        "ecoDeal": true,
+        "stock": 50,
+        "unit": "200g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "turmeric",
+            "powder"
+        ],
+        "brand": "MDH",
+        "subCategory": "Ground Spices"
+    },
+    {
+        "name": "Catch Coriander Powder",
+        "imageUrl": "https://th.bing.com/th/id/OIP.NDb6SP3tnRb4fAQuhgGGhAHaHZ?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Finely ground coriander powder for rich flavor.",
+        "price": {
+            "original": 95,
+            "discounted": 85
+        },
+        "expd": "2025-07-15",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "200g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "coriander",
+            "powder"
+        ],
+        "brand": "Catch",
+        "subCategory": "Ground Spices"
+    },
+    {
+        "name": "Tata Sampann Garam Masala",
+        "imageUrl": "https://th.bing.com/th/id/OIP.omUVlzDtMEgrrLKvzDv-xAHaK7?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Aromatic blend of Indian spices.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-10-05",
+        "ecoDeal": false,
+        "stock": 35,
+        "unit": "100g",
+        "category": "Masala",
+        "tags": [
+            "spices",
+            "garam masala",
+            "blend"
+        ],
+        "brand": "Tata Sampann",
+        "subCategory": "Ground Spices"
+    },
+    {
+        "name": "Happilo Almonds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.GA1ah30f8zK7dIjWjnQfhwHaHa?w=185&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium quality almonds for healthy snacking.",
+        "price": {
+            "original": 550,
+            "discounted": 500
+        },
+        "expd": "2025-12-20",
+        "ecoDeal": false,
+        "stock": 30,
+        "unit": "250g",
+        "category": "Dry Fruits",
+        "tags": [
+            "almonds",
+            "nuts",
+            "dry fruits"
+        ],
+        "brand": "Happilo",
+        "subCategory": "Nuts"
+    },
+    {
+        "name": "Nutraj Cashews",
+        "imageUrl": "https://th.bing.com/th/id/OIP.pva2V2v8fd9ffVqjduapHAHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Whole cashew nuts rich in taste.",
+        "price": {
+            "original": 600,
+            "discounted": 550
+        },
+        "expd": "2025-11-15",
+        "ecoDeal": false,
+        "stock": 25,
+        "unit": "250g",
+        "category": "Dry Fruits",
+        "tags": [
+            "cashews",
+            "nuts",
+            "dry fruits"
+        ],
+        "brand": "Nutraj",
+        "subCategory": "Nuts"
+    },
+    {
+        "name": "Nutraj Pistachios",
+        "imageUrl": "https://th.bing.com/th/id/OIP.nQR_dxOXLCQGtnsFHEhkBAHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Roasted and salted pistachios.",
+        "price": {
+            "original": 700,
+            "discounted": 650
+        },
+        "expd": "2025-09-05",
+        "ecoDeal": false,
+        "stock": 20,
+        "unit": "250g",
+        "category": "Dry Fruits",
+        "tags": [
+            "pistachios",
+            "nuts",
+            "dry fruits"
+        ],
+        "brand": "Nutraj",
+        "subCategory": "Nuts"
+    },
+    {
+        "name": "Happilo Raisins",
+        "imageUrl": "https://th.bing.com/th/id/OIP.gRQTujbkZS1ApD7ybDEsrQHaGY?w=198&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Soft and juicy raisins for healthy snacks.",
+        "price": {
+            "original": 250,
+            "discounted": 230
+        },
+        "expd": "2025-10-10",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "200g",
+        "category": "Dry Fruits",
+        "tags": [
+            "raisins",
+            "dry fruits",
+            "snacks"
+        ],
+        "brand": "Happilo",
+        "subCategory": "Dried Fruits"
+    },
+    {
+        "name": "Organic Sunflower Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Azvmyugc4jmMyYW1TD0RygHaHa?w=253&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "High-protein, organic sunflower seeds for healthy snacking.",
+        "price": {
+            "original": 180,
+            "discounted": 160
+        },
+        "expd": "2025-08-25",
+        "ecoDeal": true,
+        "stock": 35,
+        "unit": "200g",
+        "category": "Dry Fruits",
+        "tags": [
+            "sunflower seeds",
+            "organic",
+            "superfood"
+        ],
+        "brand": "Nature's Basket",
+        "subCategory": "Seeds & Others"
+    },
+    {
+        "name": "Chia Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Mz69eOP0_V62k8N9rFQESwHaFf?w=222&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Nutrient-rich chia seeds for a healthy diet.",
+        "price": {
+            "original": 250,
+            "discounted": 225
+        },
+        "expd": "2025-09-18",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "200g",
+        "category": "Dry Fruits",
+        "tags": [
+            "chia seeds",
+            "superfood",
+            "healthy"
+        ],
+        "brand": "Organic Tattva",
+        "subCategory": "Seeds & Others"
+    },
+    {
+        "name": "Flax Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.MglFNQfT5tcfLypVEUQr1AHaE7?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich in Omega-3, perfect for smoothies and baking.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-10-12",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "200g",
+        "category": "Dry Fruits",
+        "tags": [
+            "flax seeds",
+            "omega-3",
+            "superfood"
+        ],
+        "brand": "True Elements",
+        "subCategory": "Seeds & Others"
+    },
+    {
+        "name": "Pumpkin Seeds",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WkCUfA2NpTLrKw7AuNvDjwHaFA?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Roasted pumpkin seeds packed with nutrition.",
+        "price": {
+            "original": 220,
+            "discounted": 190
+        },
+        "expd": "2025-11-05",
+        "ecoDeal": true,
+        "stock": 30,
+        "unit": "200g",
+        "category": "Dry Fruits",
+        "tags": [
+            "pumpkin seeds",
+            "roasted",
+            "healthy snack"
+        ],
+        "brand": "Happilo",
+        "subCategory": "Seeds & Others"
+    },
+    {
+        "name": "MTR Rava Idli Mix",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WkCUfA2NpTLrKw7AuNvDjwHaFA?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Ready-to-cook Rava Idli mix for soft and fluffy idlis.",
+        "price": {
+            "original": 150,
+            "discounted": 130
+        },
+        "expd": "2025-06-30",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "500g",
+        "category": "Packaged Food",
+        "tags": [
+            "rava idli",
+            "instant mix",
+            "breakfast"
+        ],
+        "brand": "MTR",
+        "subCategory": "Instant Mixes"
+    },
+    {
+        "name": "Gits Dhokla Mix",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WkCUfA2NpTLrKw7AuNvDjwHaFA?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Quick and easy dhokla mix for a delicious snack.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-07-15",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "200g",
+        "category": "Packaged Food",
+        "tags": [
+            "dhokla mix",
+            "instant food",
+            "snacks"
+        ],
+        "brand": "Gits",
+        "subCategory": "Instant Mixes"
+    },
+    {
+        "name": "Maggi Masala Noodles",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QH6ht-xSeb_GTStiIw6rcwHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Classic instant noodles with rich masala flavor.",
+        "price": {
+            "original": 96,
+            "discounted": 90
+        },
+        "expd": "2025-08-20",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "280g (4 packs)",
+        "category": "Packaged Food",
+        "tags": [
+            "instant noodles",
+            "masala",
+            "quick meal"
+        ],
+        "brand": "Nestl\u00e9",
+        "subCategory": "Instant Mixes"
+    },
+    {
+        "name": "Knorr Classic Hot & Sour Soup Mix",
+        "imageUrl": "https://th.bing.com/th/id/OIP.1q12zJbhyiV3Dmu959BNzwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Tasty hot & sour soup mix, ready in minutes.",
+        "price": {
+            "original": 55,
+            "discounted": 50
+        },
+        "expd": "2025-09-12",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "55g",
+        "category": "Packaged Food",
+        "tags": [
+            "soup mix",
+            "hot and sour",
+            "quick meal"
+        ],
+        "brand": "Knorr",
+        "subCategory": "Instant Mixes"
+    },
+    {
+        "name": "MTR Rajma Masala",
+        "imageUrl": "https://th.bing.com/th/id/OIP.n-FsPHwfjLpC303fiQqE2QHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Delicious ready-to-eat Rajma Masala meal.",
+        "price": {
+            "original": 135,
+            "discounted": 120
+        },
+        "expd": "2025-05-10",
+        "ecoDeal": true,
+        "stock": 30,
+        "unit": "300g",
+        "category": "Packaged Food",
+        "tags": [
+            "rajma masala",
+            "ready to eat",
+            "Indian meal"
+        ],
+        "brand": "MTR",
+        "subCategory": "Ready-to-Eat Meals"
+    },
+    {
+        "name": "Gits Pav Bhaji",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WCAulGslq9x5WPJRNleC1gHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Mumbai-style Pav Bhaji, ready to eat.",
+        "price": {
+            "original": 160,
+            "discounted": 145
+        },
+        "expd": "2025-06-20",
+        "ecoDeal": false,
+        "stock": 35,
+        "unit": "300g",
+        "category": "Packaged Food",
+        "tags": [
+            "pav bhaji",
+            "ready to eat",
+            "Indian street food"
+        ],
+        "brand": "Gits",
+        "subCategory": "Ready-to-Eat Meals"
+    },
+    {
+        "name": "Haldiram\u2019s Dal Makhani",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WCAulGslq9x5WPJRNleC1gHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Authentic dal makhani, cooked to perfection.",
+        "price": {
+            "original": 170,
+            "discounted": 150
+        },
+        "expd": "2025-07-25",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "300g",
+        "category": "Packaged Food",
+        "tags": [
+            "dal makhani",
+            "ready to eat",
+            "Indian curry"
+        ],
+        "brand": "Haldiram\u2019s",
+        "subCategory": "Ready-to-Eat Meals"
+    },
+    {
+        "name": "Gits Veg Biryani",
+        "imageUrl": "https://th.bing.com/th/id/OIP.A9G1rnwS6L0Jaz_M7cuMvQHaHa?w=196&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Flavorful vegetable biryani, just heat and eat.",
+        "price": {
+            "original": 190,
+            "discounted": 170
+        },
+        "expd": "2025-08-10",
+        "ecoDeal": true,
+        "stock": 25,
+        "unit": "300g",
+        "category": "Packaged Food",
+        "tags": [
+            "veg biryani",
+            "ready to eat",
+            "Indian rice"
+        ],
+        "brand": "Gits",
+        "subCategory": "Ready-to-Eat Meals"
+    },
+    {
+        "name": "Kissan Mixed Fruit Jam",
+        "imageUrl": "https://th.bing.com/th/id/OIP.4VN3yxajUfeaae_cnvHa_QHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Delicious fruit jam with a mix of fresh flavors.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-12-01",
+        "ecoDeal": false,
+        "stock": 70,
+        "unit": "500g",
+        "category": "Packaged Food",
+        "tags": [
+            "fruit jam",
+            "spreads",
+            "breakfast"
+        ],
+        "brand": "Kissan",
+        "subCategory": "Sauces & Spreads"
+    },
+    {
+        "name": "Sunfeast Yippee Magic Masala Noodles",
+        "imageUrl": "https://th.bing.com/th/id/OIP.xSnQ1XNDvTH1g8T5jGRAbQHaFS?w=257&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Long, non-sticky noodles with a tasty magic masala flavor.",
+        "price": {
+            "original": 50,
+            "discounted": 45
+        },
+        "expd": "2025-09-30",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "280g (4 packs)",
+        "category": "Packaged Food",
+        "tags": [
+            "instant noodles",
+            "masala",
+            "quick meal"
+        ],
+        "brand": "Sunfeast",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Top Ramen Curry Noodles",
+        "imageUrl": "https://th.bing.com/th/id/OIP.nAozsV7Ptca6aA0aAB3zYgHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Instant noodles with a rich curry flavor.",
+        "price": {
+            "original": 45,
+            "discounted": 40
+        },
+        "expd": "2025-10-15",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "280g (4 packs)",
+        "category": "Packaged Food",
+        "tags": [
+            "instant noodles",
+            "curry",
+            "quick meal"
+        ],
+        "brand": "Top Ramen",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Nestl\u00e9 Maggi Fusian Hong Kong Spicy Noodles",
+        "imageUrl": "https://th.bing.com/th/id/OIP._UxMfkR-vPYpir6huhEulQHaHa?w=197&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Asian-style instant noodles with a spicy kick.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-11-05",
+        "ecoDeal": false,
+        "stock": 50,
+        "unit": "300g",
+        "category": "Packaged Food",
+        "tags": [
+            "instant noodles",
+            "spicy",
+            "Asian cuisine"
+        ],
+        "brand": "Maggi",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Knorr Italian Mushroom Pasta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Gs6oqADwX0LVcfkcZCif_wHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Creamy Italian mushroom pasta, quick and easy to prepare.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-12-20",
+        "ecoDeal": false,
+        "stock": 60,
+        "unit": "180g",
+        "category": "Packaged Food",
+        "tags": [
+            "pasta",
+            "mushroom",
+            "Italian"
+        ],
+        "brand": "Knorr",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Barilla Penne Rigate Pasta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.3jqNe_I1CPSrJYyuLjpjVwHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Authentic Italian pasta made from 100% durum wheat.",
+        "price": {
+            "original": 200,
+            "discounted": 180
+        },
+        "expd": "2026-01-10",
+        "ecoDeal": false,
+        "stock": 45,
+        "unit": "500g",
+        "category": "Packaged Food",
+        "tags": [
+            "pasta",
+            "penne",
+            "Italian cuisine"
+        ],
+        "brand": "Barilla",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Del Monte Spaghetti Pasta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.-OwlZzEDr_uwabrFRLYMGAHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Long and firm spaghetti pasta for perfect Italian dishes.",
+        "price": {
+            "original": 180,
+            "discounted": 160
+        },
+        "expd": "2026-02-15",
+        "ecoDeal": false,
+        "stock": 55,
+        "unit": "500g",
+        "category": "Packaged Food",
+        "tags": [
+            "pasta",
+            "spaghetti",
+            "Italian cuisine"
+        ],
+        "brand": "Del Monte",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Maggi Veg Atta Noodles",
+        "imageUrl": "https://th.bing.com/th/id/OIP.d-6D9NlUahCRdeX-z9q8MQHaHa?w=197&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Whole wheat atta noodles with added vegetables.",
+        "price": {
+            "original": 35,
+            "discounted": 30
+        },
+        "expd": "2025-09-05",
+        "ecoDeal": true,
+        "stock": 70,
+        "unit": "290g (4 packs)",
+        "category": "Packaged Food",
+        "tags": [
+            "instant noodles",
+            "whole wheat",
+            "healthy"
+        ],
+        "brand": "Maggi",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Weikfield Elbow Macaroni Pasta",
+        "imageUrl": "https://th.bing.com/th/id/OIP.C31C1ziXT9lo-3y7kptqvgHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium elbow macaroni for creamy pasta dishes.",
+        "price": {
+            "original": 140,
+            "discounted": 125
+        },
+        "expd": "2026-03-12",
+        "ecoDeal": false,
+        "stock": 40,
+        "unit": "500g",
+        "category": "Packaged Food",
+        "tags": [
+            "pasta",
+            "macaroni",
+            "Italian"
+        ],
+        "brand": "Weikfield",
+        "subCategory": "Noodles & Pasta"
+    },
+    {
+        "name": "Lay's Classic Salted Chips",
+        "imageUrl": "https://th.bing.com/th/id/OIP.n-ik34HoRrIhVwBdlYTBcgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crispy and light potato chips with classic salted flavor.",
+        "price": {
+            "original": 50,
+            "discounted": 45
+        },
+        "expd": "2025-04-20",
+        "ecoDeal": true,
+        "stock": 120,
+        "unit": "52g",
+        "category": "Snacks",
+        "tags": [
+            "Chips",
+            "Potato Chips",
+            "Lay's"
+        ],
+        "brand": "Lay's",
+        "subCategory": "Chips & Namkeens"
+    },
+    {
+        "name": "Bingo Mad Angles Masala Chips",
+        "imageUrl": "https://th.bing.com/th/id/OIP.6nhtNkOgifakmQ2H2DrIDAAAAA?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crunchy triangle-shaped chips with a spicy masala twist.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-05-15",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "60g",
+        "category": "Snacks",
+        "tags": [
+            "Chips",
+            "Masala",
+            "Bingo"
+        ],
+        "brand": "Bingo",
+        "subCategory": "Chips & Namkeens"
+    },
+    {
+        "name": "Haldiram's Aloo Bhujia",
+        "imageUrl": "https://th.bing.com/th/id/OIP.nT420kfExWmjENVutNEupgHaHa?w=184&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crunchy and spicy potato-based namkeen snack.",
+        "price": {
+            "original": 85,
+            "discounted": 80
+        },
+        "expd": "2025-06-10",
+        "ecoDeal": true,
+        "stock": 110,
+        "unit": "200g",
+        "category": "Snacks",
+        "tags": [
+            "Namkeen",
+            "Aloo Bhujia",
+            "Haldiram"
+        ],
+        "brand": "Haldiram's",
+        "subCategory": "Chips & Namkeens"
+    },
+    {
+        "name": "Kurkure Masala Munch",
+        "imageUrl": "https://th.bing.com/th/id/OIP.eTT3w24Pb9S-JKIIw85AewHaKE?w=136&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Spicy and crunchy corn-based snack for a bold taste.",
+        "price": {
+            "original": 40,
+            "discounted": 38
+        },
+        "expd": "2025-05-30",
+        "ecoDeal": false,
+        "stock": 150,
+        "unit": "80g",
+        "category": "Snacks",
+        "tags": [
+            "Kurkure",
+            "Masala",
+            "Spicy"
+        ],
+        "brand": "Kurkure",
+        "subCategory": "Chips & Namkeens"
+    },
+    {
+        "name": "Britannia Good Day Butter Cookies",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Ltd2iAQmkdZSgGQpZnDqtwHaHw?w=150&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crunchy and buttery cookies with a rich taste.",
+        "price": {
+            "original": 35,
+            "discounted": 30
+        },
+        "expd": "2025-04-25",
+        "ecoDeal": true,
+        "stock": 200,
+        "unit": "150g",
+        "category": "Snacks",
+        "tags": [
+            "Cookies",
+            "Butter",
+            "Britannia"
+        ],
+        "brand": "Britannia",
+        "subCategory": "Biscuits & Cookies"
+    },
+    {
+        "name": "Parle-G Original Glucose Biscuits",
+        "imageUrl": "https://th.bing.com/th/id/OIP.TDMab8wD5Z7-OmMU5xYBPwHaGd?w=209&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Classic Indian tea-time biscuits with a rich glucose taste.",
+        "price": {
+            "original": 40,
+            "discounted": 35
+        },
+        "expd": "2025-06-10",
+        "ecoDeal": false,
+        "stock": 300,
+        "unit": "250g",
+        "category": "Snacks",
+        "tags": [
+            "Biscuits",
+            "Glucose",
+            "Parle-G"
+        ],
+        "brand": "Parle-G",
+        "subCategory": "Biscuits & Cookies"
+    },
+    {
+        "name": "Hide & Seek Fab Chocolate Cookies",
+        "imageUrl": "https://th.bing.com/th/id/OIP.hXTqzAl9VhlS_s2RejRA_wHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crunchy chocolate-filled cookies for a delightful snack.",
+        "price": {
+            "original": 50,
+            "discounted": 45
+        },
+        "expd": "2025-05-20",
+        "ecoDeal": true,
+        "stock": 100,
+        "unit": "120g",
+        "category": "Snacks",
+        "tags": [
+            "Cookies",
+            "Chocolate",
+            "Hide & Seek"
+        ],
+        "brand": "Hide & Seek",
+        "subCategory": "Biscuits & Cookies"
+    },
+    {
+        "name": "Oreo Chocolate Cream Biscuits",
+        "imageUrl": "https://th.bing.com/th/id/OIP.8XzZ_iL-uxFWtKIt6ZOFgwHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Classic sandwich biscuits with rich chocolate cream.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-07-15",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "150g",
+        "category": "Snacks",
+        "tags": [
+            "Biscuits",
+            "Oreo",
+            "Chocolate"
+        ],
+        "brand": "Oreo",
+        "subCategory": "Biscuits & Cookies"
+    },
+    {
+        "name": "Britannia Swiss Roll Chocolate",
+        "imageUrl": "https://th.bing.com/th/id/OIP.AONsYK88hC1spbFvgyErPQAAAA?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Soft chocolate roll filled with creamy goodness.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-04-20",
+        "ecoDeal": true,
+        "stock": 90,
+        "unit": "120g",
+        "category": "Snacks",
+        "tags": [
+            "Cake",
+            "Chocolate",
+            "Britannia"
+        ],
+        "brand": "Britannia",
+        "subCategory": "Cakes & Muffins"
+    },
+    {
+        "name": "Little Debbie Chocolate Chip Muffins",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QZM7w8ELc9GUVLa6V5PYrgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Delicious muffins with rich chocolate chip flavor.",
+        "price": {
+            "original": 75,
+            "discounted": 70
+        },
+        "expd": "2025-05-15",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "200g",
+        "category": "Snacks",
+        "tags": [
+            "Muffins",
+            "Chocolate",
+            "Little Debbie"
+        ],
+        "brand": "Little Debbie",
+        "subCategory": "Cakes & Muffins"
+    },
+    {
+        "name": "Hostess CupCakes Vanilla",
+        "imageUrl": "https://th.bing.com/th/id/OIP.cEfGSezhE1C-R_mMpyJM7QHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Soft vanilla cupcakes with a creamy filling.",
+        "price": {
+            "original": 85,
+            "discounted": 80
+        },
+        "expd": "2025-06-10",
+        "ecoDeal": false,
+        "stock": 100,
+        "unit": "150g",
+        "category": "Snacks",
+        "tags": [
+            "Cupcakes",
+            "Vanilla",
+            "Hostess"
+        ],
+        "brand": "Hostess",
+        "subCategory": "Cakes & Muffins"
+    },
+    {
+        "name": "Pillsbury Moist Supreme Chocolate Cake",
+        "imageUrl": "https://th.bing.com/th/id/OIP.PKqJ_EzeoUDtWt-zlLH41AHaKa?w=139&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Super moist chocolate cake for a rich experience.",
+        "price": {
+            "original": 95,
+            "discounted": 90
+        },
+        "expd": "2025-07-05",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "250g",
+        "category": "Snacks",
+        "tags": [
+            "Cake",
+            "Chocolate",
+            "Pillsbury"
+        ],
+        "brand": "Pillsbury",
+        "subCategory": "Cakes & Muffins"
+    },
+    {
+        "name": "Haldiram's Bhujia Sev",
+        "imageUrl": "https://th.bing.com/th/id/OIP.WO07IEy935RNYZOM8gm1MwHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crispy and spicy bhujia sev made with gram flour and authentic spices.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-04-25",
+        "ecoDeal": true,
+        "stock": 150,
+        "unit": "400g",
+        "category": "Snacks",
+        "tags": [
+            "Namkeen",
+            "Spicy",
+            "Haldiram"
+        ],
+        "brand": "Haldiram's",
+        "subCategory": "Indian Snacks"
+    },
+    {
+        "name": "Bikaji Bikaneri Bhujia",
+        "imageUrl": "https://th.bing.com/th/id/OIP.E4yYrlMC_haGuLoYGw7uGgAAAA?w=118&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Traditional Bikaneri bhujia made with authentic flavors.",
+        "price": {
+            "original": 110,
+            "discounted": 105
+        },
+        "expd": "2025-05-10",
+        "ecoDeal": false,
+        "stock": 130,
+        "unit": "350g",
+        "category": "Snacks",
+        "tags": [
+            "Namkeen",
+            "Crispy",
+            "Bikaji"
+        ],
+        "brand": "Bikaji",
+        "subCategory": "Indian Snacks"
+    },
+    {
+        "name": "Lays Magic Masala Chips",
+        "imageUrl": "https://th.bing.com/th/id/OIP.sPOvvaQH_Gr54R-65jYYPAHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Masala-flavored potato chips with a crunchy texture.",
+        "price": {
+            "original": 60,
+            "discounted": 55
+        },
+        "expd": "2025-06-15",
+        "ecoDeal": false,
+        "stock": 200,
+        "unit": "200g",
+        "category": "Snacks",
+        "tags": [
+            "Chips",
+            "Spicy",
+            "Lays"
+        ],
+        "brand": "Lays",
+        "subCategory": "Indian Snacks"
+    },
+    {
+        "name": "Haldiram's Moong Dal",
+        "imageUrl": "https://th.bing.com/th/id/OIP.LU2pYN3I9hunDdedsIXbagHaIq?w=168&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Crispy and salty moong dal namkeen, a perfect tea-time snack.",
+        "price": {
+            "original": 90,
+            "discounted": 85
+        },
+        "expd": "2025-05-30",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "300g",
+        "category": "Snacks",
+        "tags": [
+            "Namkeen",
+            "Crispy",
+            "Haldiram"
+        ],
+        "brand": "Haldiram's",
+        "subCategory": "Indian Snacks"
+    },
+    {
+        "name": "Tropicana Orange Juice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.-zACjsrlnn1V2K6XOEawIgHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Refreshing orange juice with no added preservatives.",
+        "price": {
+            "original": 150,
+            "discounted": 140
+        },
+        "expd": "2025-07-10",
+        "ecoDeal": false,
+        "stock": 100,
+        "unit": "1L",
+        "category": "Drinks",
+        "tags": [
+            "Juice",
+            "Orange",
+            "Tropicana"
+        ],
+        "brand": "Tropicana",
+        "subCategory": "Fruit Juices"
+    },
+    {
+        "name": "Real Mixed Fruit Juice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.ttnBR1CarHBnZ9LobEO6awAAAA?w=166&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "A delicious blend of fruit juices, enriched with vitamins.",
+        "price": {
+            "original": 140,
+            "discounted": 130
+        },
+        "expd": "2025-08-05",
+        "ecoDeal": false,
+        "stock": 90,
+        "unit": "1L",
+        "category": "Drinks",
+        "tags": [
+            "Juice",
+            "Mixed Fruit",
+            "Real"
+        ],
+        "brand": "Real",
+        "subCategory": "Fruit Juices"
+    },
+    {
+        "name": "Paper Boat Mango Juice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.g_GmXfleaI_h7eH7dhxlJAHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Thick and pulpy mango juice with no artificial flavors.",
+        "price": {
+            "original": 100,
+            "discounted": 95
+        },
+        "expd": "2025-06-20",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "750ml",
+        "category": "Drinks",
+        "tags": [
+            "Juice",
+            "Mango",
+            "Paper Boat"
+        ],
+        "brand": "Paper Boat",
+        "subCategory": "Fruit Juices"
+    },
+    {
+        "name": "B Natural Guava Juice",
+        "imageUrl": "https://th.bing.com/th/id/OIP.dxXDM7G4VrHvDaOleLKxvAHaH7?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and thick guava juice made from natural pulp.",
+        "price": {
+            "original": 120,
+            "discounted": 110
+        },
+        "expd": "2025-07-25",
+        "ecoDeal": true,
+        "stock": 85,
+        "unit": "1L",
+        "category": "Drinks",
+        "tags": [
+            "Juice",
+            "Guava",
+            "B Natural"
+        ],
+        "brand": "B Natural",
+        "subCategory": "Fruit Juices"
+    },
+    {
+        "name": "Coca-Cola",
+        "imageUrl": "https://th.bing.com/th/id/OIP.Qmydmtae1QtfPdBi7Fj9LwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "description": "Classic fizzy drink with a refreshing cola taste.",
+        "price": {
+            "original": 90,
+            "discounted": 85
+        },
+        "expd": "2025-09-15",
+        "ecoDeal": false,
+        "stock": 150,
+        "unit": "1.5L",
+        "category": "Drinks",
+        "tags": [
+            "Soft Drink",
+            "Cola",
+            "Coca-Cola"
+        ],
+        "brand": "Coca-Cola",
+        "subCategory": "Soft Drinks"
+    },
+    {
+        "name": "Pepsi",
+        "imageUrl": "https://th.bing.com/th/id/OIP.JRqPhjhZBX0-RzZLYlEqrQHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Cool and refreshing cola drink with a bold taste.",
+        "price": {
+            "original": 85,
+            "discounted": 80
+        },
+        "expd": "2025-08-10",
+        "ecoDeal": false,
+        "stock": 140,
+        "unit": "1.5L",
+        "category": "Drinks",
+        "tags": [
+            "Soft Drink",
+            "Cola",
+            "Pepsi"
+        ],
+        "brand": "Pepsi",
+        "subCategory": "Soft Drinks"
+    },
+    {
+        "name": "Sprite",
+        "imageUrl": "https://th.bing.com/th/id/OIP.ROK-CLc289OZL7ac-8zibQHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Refreshing lemon-lime soft drink with a crisp taste.",
+        "price": {
+            "original": 80,
+            "discounted": 75
+        },
+        "expd": "2025-07-30",
+        "ecoDeal": true,
+        "stock": 130,
+        "unit": "1.5L",
+        "category": "Drinks",
+        "tags": [
+            "Soft Drink",
+            "Lemon",
+            "Sprite"
+        ],
+        "brand": "Sprite",
+        "subCategory": "Soft Drinks"
+    },
+    {
+        "name": "Thums Up",
+        "imageUrl": "https://th.bing.com/th/id/OIP.GQMz5wzNBOUNFN-I3QNY7QHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Strong and bold cola-flavored soft drink.",
+        "price": {
+            "original": 90,
+            "discounted": 85
+        },
+        "expd": "2025-09-05",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "1.5L",
+        "category": "Drinks",
+        "tags": [
+            "Soft Drink",
+            "Cola",
+            "Thums Up"
+        ],
+        "brand": "Thums Up",
+        "subCategory": "Soft Drinks"
+    },
+    {
+        "name": "Tata Tea Gold",
+        "imageUrl": "https://th.bing.com/th/id/OIP.ONOtFo4Tg-gaStjhZhyanwHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and aromatic Assam tea blend for a perfect cup.",
+        "price": {
+            "original": 250,
+            "discounted": 230
+        },
+        "expd": "2025-12-20",
+        "ecoDeal": false,
+        "stock": 100,
+        "unit": "500g",
+        "category": "Drinks",
+        "tags": [
+            "Tea",
+            "Assam Tea",
+            "Tata"
+        ],
+        "brand": "Tata",
+        "subCategory": "Tea & Coffee"
+    },
+    {
+        "name": "Red Label Tea",
+        "imageUrl": "https://th.bing.com/th/id/OIP.HAvr8_mifxytAiehiAw2JQHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "A blend of taste and strength, perfect for Indian chai.",
+        "price": {
+            "original": 220,
+            "discounted": 210
+        },
+        "expd": "2025-11-30",
+        "ecoDeal": true,
+        "stock": 90,
+        "unit": "500g",
+        "category": "Drinks",
+        "tags": [
+            "Tea",
+            "Chai",
+            "Red Label"
+        ],
+        "brand": "Red Label",
+        "subCategory": "Tea & Coffee"
+    },
+    {
+        "name": "Nescaf\u00e9 Classic Coffee",
+        "imageUrl": "https://th.bing.com/th/id/OIP.I-gpmIzQ4JFfyW3botUQ_QHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Rich and flavorful instant coffee for a refreshing start.",
+        "price": {
+            "original": 350,
+            "discounted": 320
+        },
+        "expd": "2026-03-15",
+        "ecoDeal": false,
+        "stock": 80,
+        "unit": "200g",
+        "category": "Drinks",
+        "tags": [
+            "Coffee",
+            "Instant Coffee",
+            "Nescaf\u00e9"
+        ],
+        "brand": "Nescaf\u00e9",
+        "subCategory": "Tea & Coffee"
+    },
+    {
+        "name": "Bru Gold Coffee",
+        "imageUrl": "https://th.bing.com/th/id/OIP.VMpuTyOiUtpRo3Imv0qrPgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Premium coffee blend with a rich aroma and smooth taste.",
+        "price": {
+            "original": 375,
+            "discounted": 350
+        },
+        "expd": "2026-02-10",
+        "ecoDeal": false,
+        "stock": 75,
+        "unit": "200g",
+        "category": "Drinks",
+        "tags": [
+            "Coffee",
+            "Bru",
+            "Instant Coffee"
+        ],
+        "brand": "Bru",
+        "subCategory": "Tea & Coffee"
+    },
+    {
+        "name": "Horlicks Classic Malt",
+        "imageUrl": "https://th.bing.com/th/id/OIP.fXspgxrLlj8YP1ZPQkU-nQHaHa?w=216&h=215&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Nourishing malt-based drink for strength and energy.",
+        "price": {
+            "original": 290,
+            "discounted": 275
+        },
+        "expd": "2026-01-25",
+        "ecoDeal": false,
+        "stock": 120,
+        "unit": "500g",
+        "category": "Drinks",
+        "tags": [
+            "Health Drink",
+            "Malt",
+            "Horlicks"
+        ],
+        "brand": "Horlicks",
+        "subCategory": "Energy & Health Drinks"
+    },
+    {
+        "name": "Bournvita",
+        "imageUrl": "https://th.bing.com/th/id/OIP.vDIgluKSDAjmXWyaK2YqjQHaHa?w=212&h=212&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Chocolate-flavored health drink for strength and stamina.",
+        "price": {
+            "original": 310,
+            "discounted": 290
+        },
+        "expd": "2025-12-30",
+        "ecoDeal": true,
+        "stock": 110,
+        "unit": "500g",
+        "category": "Drinks",
+        "tags": [
+            "Health Drink",
+            "Chocolate",
+            "Bournvita"
+        ],
+        "brand": "Cadbury",
+        "subCategory": "Energy & Health Drinks"
+    },
+    {
+        "name": "Red Bull Energy Drink",
+        "imageUrl": "https://th.bing.com/th/id/OIP.y56zEyzYSlaUnXDd4QM5FgHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Boosts energy and mental performance with taurine.",
+        "price": {
+            "original": 110,
+            "discounted": 100
+        },
+        "expd": "2025-09-15",
+        "ecoDeal": false,
+        "stock": 200,
+        "unit": "250ml",
+        "category": "Drinks",
+        "tags": [
+            "Energy Drink",
+            "Caffeine",
+            "Red Bull"
+        ],
+        "brand": "Red Bull",
+        "subCategory": "Energy & Health Drinks"
+    },
+    {
+        "name": "Glucon-D Instant Energy",
+        "imageUrl": "https://th.bing.com/th/id/OIP.wog17V_ORyrBoll90ubNiAHaHa?w=207&h=207&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Instant energy boost with glucose and essential vitamins.",
+        "price": {
+            "original": 180,
+            "discounted": 170
+        },
+        "expd": "2026-04-10",
+        "ecoDeal": false,
+        "stock": 150,
+        "unit": "500g",
+        "category": "Drinks",
+        "tags": [
+            "Health Drink",
+            "Glucose",
+            "Glucon-D"
+        ],
+        "brand": "Glucon-D",
+        "subCategory": "Energy & Health Drinks"
+    }
+]

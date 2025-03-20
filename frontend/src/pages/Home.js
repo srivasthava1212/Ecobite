@@ -1,28 +1,49 @@
-import React from 'react'
-import CategoryList from '../components/CategoryList'
-import BannerProduct from '../components/BannerProduct'
-import HorizontalCardProduct from '../components/HorizontalCardProduct'
-import VerticalCardProduct from '../components/VerticalCardProduct'
+import React from "react";
+import CategoryList from "../components/CategoryList";
+import BannerProduct from "../components/BannerProduct";
+import HorizontalCardProduct from "../components/HorizontalCardProduct";
+import VerticalCardProduct from "../components/VerticalCardProduct";
 
 const Home = () => {
   return (
     <div>
-      <CategoryList/>
-      <BannerProduct/>
+      <CategoryList />
+      <BannerProduct />
 
-      <HorizontalCardProduct category={"airpodes"} heading={"Top's Airpodes"}/>
-      <HorizontalCardProduct category={"watches"} heading={"Popular's Watches"}/>
+      {/* Use the correct categories from your database */}
+      <HorizontalCardProduct
+        category={"Dairy"}
+        heading={"Fresh Dairy Products"}
+      />
+      <HorizontalCardProduct
+        category={"Snacks"}
+        heading={"Best Selling Snacks"}
+      />
 
-      <VerticalCardProduct category={"mobiles"} heading={"Mobiles"}/>
-      <VerticalCardProduct category={"Mouse"} heading={"Mouse"}/>
-      <VerticalCardProduct category={"televisions"} heading={"Televisions"}/>
-      <VerticalCardProduct category={"camera"} heading={"Camera & Photography"}/>
-      <VerticalCardProduct category={"earphones"} heading={"Wired Earphones"}/>
-      <VerticalCardProduct category={"speakers"} heading={"Bluetooth Speakers"}/>
-      <VerticalCardProduct category={"refrigerator"} heading={"Refrigerator"}/>
-      <VerticalCardProduct category={"trimmers"} heading={"Trimmers"}/>
+      <VerticalCardProduct
+        category={"Drinks"}
+        heading={"Refreshing Beverages"}
+      />
+      <VerticalCardProduct
+        category={"Packaged Food"}
+        heading={"Instant & Packaged Foods"}
+      />
+      <VerticalCardProduct category={"Eggs"} heading={"Eggs & Poultry"} />
+      <VerticalCardProduct category={"Masala"} heading={"Spices & Masala"} />
+      <VerticalCardProduct
+        category={"Atta, Rice, Oil & Dals"}
+        heading={"Kitchen Essentials"}
+      />
+      <VerticalCardProduct
+        category={"Dry Fruits"}
+        heading={"Healthy Dry Fruits & Nuts"}
+      />
+      <VerticalCardProduct
+        category={"Breads"}
+        heading={"Freshly Baked Breads"}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
