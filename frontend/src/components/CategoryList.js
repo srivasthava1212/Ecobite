@@ -62,7 +62,7 @@ const CategoryList = () => {
                 key={index} // 🔹 Added missing key prop
               >
                 {/* ✅ Ensuring category text stays inside the container */}
-                <div className="w-20 h-20 md:w-24 md:h-24 rounded-lg overflow-hidden bg-slate-200 flex items-center justify-center">
+                <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-slate-200 flex items-center justify-center">
                   {category.imageUrl ? (
                     <img
                       src={category.imageUrl}

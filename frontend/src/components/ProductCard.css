@@ -1,0 +1,132 @@
+.product-card {
+  width: 200px;
+  height: 400px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; /* Default z-index */
+}
+
+/* ✅ Lift & Expand Above Parent on Hover */
+.product-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Moves the card above other elements */
+}
+
+/* ✅ Ensure Parent Allows Overflow */
+.carousel {
+  overflow: visible; /* Prevents clipping when card expands */
+}
+
+/* ✅ Eco Deal Badge */
+.eco-deal-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #3cb043;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain; /* Change from 'cover' to 'contain' */
+  border-radius: 8px; /* Ensures no transparency issues */
+  display: block;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0 4px;
+  text-align: center;
+}
+
+.product-card .weight {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+
+.price {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+}
+
+.new-price {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ✅ Styled Add to Cart Button */
+.add-to-cart {
+  width: 100%;
+  background: rgb(255, 160, 58);
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ✅ Styled Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  background: rgb(34, 193, 195);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quantity-display {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ✅ Expandable Description on Hover */
+.description {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  padding: 8px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .description {
+  opacity: 1;
+}

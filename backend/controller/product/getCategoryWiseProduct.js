@@ -13,16 +13,16 @@ const getCategoryWiseProduct = async (req, res) => {
       });
     }
 
-    console.log(`🔍 Searching for category: ${category}`);
+    console.log(`🔍 Searching for category: "${category}"`);
 
-    // Normalize category name for better matching
-    const normalizedCategory = category.trim().toLowerCase();
+    // Trim spaces and ensure case-insensitive match
+    const normalizedCategory = category.trim();
 
     const products = await productModel.find({
       category: { $regex: new RegExp(`^${normalizedCategory}$`, "i") },
     });
 
-    console.log(`✅ Found products: ${products.length} products`);
+    console.log(`✅ Found ${products.length} products for "${category}"`);
 
     res.json({
       data: products,

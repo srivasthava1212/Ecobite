@@ -1,16 +1,51 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CategoryList from "../components/CategoryList";
 import BannerProduct from "../components/BannerProduct";
 import HorizontalCardProduct from "../components/HorizontalCardProduct";
-import VerticalCardProduct from "../components/VerticalCardProduct";
+import GroceryCarousel from "../components/carousel";
+import fetchCategoryWiseProduct from "../helpers/fetchCategoryWiseProduct";
 
 const Home = () => {
+  const [allProducts, setAllProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchAllProducts = async () => {
+      try {
+        const categories = [
+          "Dairy",
+          "Breads",
+          "Eggs",
+          "Atta, Rice, Oil & Dals",
+          "Masala",
+          "Dry Fruits",
+          "Packaged Food",
+          "Snacks",
+          "Drinks",
+        ];
+        let allFetchedProducts = [];
+
+        for (const category of categories) {
+          const products = await fetchCategoryWiseProduct(category);
+          allFetchedProducts = [...allFetchedProducts, ...products];
+        }
+
+        setAllProducts(allFetchedProducts);
+      } catch (error) {
+        console.error("Error fetching all products:", error);
+      }
+    };
+
+    fetchAllProducts();
+  }, []);
+
   return (
     <div>
       <CategoryList />
       <BannerProduct />
 
-      {/* Use the correct categories from your database */}
+      {/* ✅ Pass products to GroceryCarousel */}
+      <GroceryCarousel products={allProducts} />
+
       <HorizontalCardProduct
         category={"Dairy"}
         heading={"Fresh Dairy Products"}
@@ -19,26 +54,25 @@ const Home = () => {
         category={"Snacks"}
         heading={"Best Selling Snacks"}
       />
-
-      <VerticalCardProduct
+      <HorizontalCardProduct
         category={"Drinks"}
         heading={"Refreshing Beverages"}
       />
-      <VerticalCardProduct
+      <HorizontalCardProduct
         category={"Packaged Food"}
         heading={"Instant & Packaged Foods"}
       />
-      <VerticalCardProduct category={"Eggs"} heading={"Eggs & Poultry"} />
-      <VerticalCardProduct category={"Masala"} heading={"Spices & Masala"} />
-      <VerticalCardProduct
+      <HorizontalCardProduct category={"Eggs"} heading={"Eggs & Poultry"} />
+      <HorizontalCardProduct category={"Masala"} heading={"Spices & Masala"} />
+      <HorizontalCardProduct
         category={"Atta, Rice, Oil & Dals"}
         heading={"Kitchen Essentials"}
       />
-      <VerticalCardProduct
+      <HorizontalCardProduct
         category={"Dry Fruits"}
         heading={"Healthy Dry Fruits & Nuts"}
       />
-      <VerticalCardProduct
+      <HorizontalCardProduct
         category={"Breads"}
         heading={"Freshly Baked Breads"}
       />
