@@ -107,7 +107,7 @@ const Header = () => {
               >
                 <a
                   className="whitespace-nowrap hover:bg-slate-100 p-2"
-                  href="/admin-panel"
+                  href="/admin-panel/all-users"
                 >
                   Admin Panel
                 </a>

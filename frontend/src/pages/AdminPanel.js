@@ -28,24 +28,24 @@ const AdminPanel = () => {
                 alt={user?.name}
               />
             ) : (
-              <FaRegCircleUser className="text-5xl text-gray-400" />
+              <FaRegCircleUser className="text-5xl text-black" />
             )}
           </div>
-          <p className="font-semibold text-gray-700">{user?.username}</p>
-          <p className="text-sm text-gray-500 uppercase">{user?.role}</p>
+          <p className="font-semibold text-black">{user?.username}</p>
+          <p className="text-sm text-black uppercase">{user?.role}</p>
         </div>
 
         {/* Navigation Menu */}
         <nav className="p-4 space-y-2">
           <Link
             to="all-users"
-            className="block px-4 py-2.5 rounded-lg text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:pl-6"
+            className="block px-4 py-2.5 rounded-lg text-black hover:bg-gray-100 transition-all duration-200 hover:pl-6"
           >
             All Users
           </Link>
           <Link
             to="all-products"
-            className="block px-4 py-2.5 rounded-lg text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:pl-6"
+            className="block px-4 py-2.5 rounded-lg text-black hover:bg-gray-100 transition-all duration-200 hover:pl-6"
           >
             All Products
           </Link>
