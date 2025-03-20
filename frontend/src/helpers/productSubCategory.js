@@ -21,7 +21,8 @@ const productSubCategory = [
     id: 7,
     label: "Sourdough Breads",
     value: "sourdough Breads",
-    category: "breadseggs"},
+    category: "breads",
+  },
   {
     id: 8,
     label: "Gluten-Free Breads",
