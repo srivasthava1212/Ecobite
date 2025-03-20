@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import image1 from "../assets/banner/img1.webp";
+import image1 from "../assets/banner/img1.jpg";
 import image2 from "../assets/banner/img2.webp";
-import image3 from "../assets/banner/img3.jpg";
+import image3 from "../assets/banner/img3.avif";
 import image4 from "../assets/banner/img4.jpg";
-import image5 from "../assets/banner/img5.webp";
+import image5 from "../assets/banner/img5.jpg";
 
 import image1Mobile from "../assets/banner/img1_mobile.jpg";
 import image2Mobile from "../assets/banner/img2_mobile.webp";
