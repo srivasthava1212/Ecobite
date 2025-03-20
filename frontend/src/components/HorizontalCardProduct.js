@@ -77,7 +77,7 @@ const HorizontalCardProduct = ({ category, heading }) => {
           loadingList.map((_, index) => (
             <div
               key={index}
-              className="w-full min-w-[280px] md:min-w-[320px] max-w-[280px] md:max-w-[320px] h-36 bg-white rounded-sm shadow flex"
+              className="w-full min-w-[280px] md:min-w-[320px] max-w-[280px] md:max-w-[320px] h-36 bg-white rounded-sm shadow flex relative"
             >
               <div className="bg-slate-200 h-full p-4 min-w-[120px] md:min-w-[145px] animate-pulse"></div>
               <div className="p-4 grid w-full gap-2">
@@ -96,8 +96,15 @@ const HorizontalCardProduct = ({ category, heading }) => {
             <Link
               key={product._id}
               to={`/product/${product._id}`}
-              className="w-full min-w-[280px] md:min-w-[320px] max-w-[280px] md:max-w-[320px] h-36 bg-white rounded-sm shadow flex"
+              className="w-full min-w-[280px] md:min-w-[320px] max-w-[280px] md:max-w-[320px] h-36 bg-white rounded-sm shadow flex relative"
             >
+              {/* ✅ Eco Deal Badge (if applicable) */}
+              {product.ecoDeal && (
+                <span className="absolute top-2 left-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-md">
+                  Eco Deal
+                </span>
+              )}
+
               <div className="bg-slate-200 h-full p-4 min-w-[120px] md:min-w-[145px]">
                 <img
                   src={product.imageUrl}
