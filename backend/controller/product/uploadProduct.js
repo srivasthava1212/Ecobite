@@ -1,36 +1,62 @@
-const mongoose = require("mongoose");
+const uploadProductPermission = require("../../helpers/permission");
 const productModel = require("../../models/productModel");
-const fs = require("fs");
 
-// Load environment variables
-require("dotenv").config();
-
-// Connect to MongoDB
-mongoose
-  .connect(process.env.MONGODB_URI)
-  .then(() => console.log("Connected to MongoDB"))
-  .catch((err) => console.error("Failed to connect to MongoDB", err));
-
-// Read JSON files
-const snacksAndDrinks = JSON.parse(
-  fs.readFileSync("./data/SnacksAndDrinks.json", "utf-8")
-);
-const groceryAndKitchen = JSON.parse(
-  fs.readFileSync("./data/GroceryAndKitchen.json", "utf-8")
-);
-
-// Function to upload products
-const uploadProduct = async (req, res) => {
+async function UploadProductController(req, res) {
   try {
-    // Your product upload logic here
-    res
-      .status(200)
-      .json({ success: true, message: "Product uploaded successfully!" });
-  } catch (error) {
-    res
-      .status(500)
-      .json({ success: false, message: "Error uploading product", error });
-  }
-};
+    const sessionUserId = req.userId;
 
-module.exports = uploadProduct;
+    if (!uploadProductPermission(sessionUserId)) {
+      return res.status(403).json({
+        message: "Permission denied",
+        error: true,
+        success: false,
+      });
+    }
+
+    // Validate required fields
+    const requiredFields = [
+      "name",
+      "brand",
+      "category",
+      "unit",
+      "stock",
+      "expd",
+      "price",
+      "imageUrl",
+      "subCategory",
+    ];
+
+    const missingFields = requiredFields.filter((field) => !req.body[field]);
+
+    if (missingFields.length > 0) {
+      return res.status(400).json({
+        message: `Missing required fields: ${missingFields.join(", ")}`,
+        error: true,
+        success: false,
+      });
+    }
+
+    const uploadProduct = new productModel({
+      ...req.body,
+      id: Math.floor(Math.random() * 1000000), // Ensure numeric ID
+    });
+
+    const saveProduct = await uploadProduct.save();
+
+    res.status(201).json({
+      message: "Product uploaded successfully",
+      error: false,
+      success: true,
+      data: saveProduct,
+    });
+  } catch (err) {
+    res.status(400).json({
+      message: err.message || "Product upload failed",
+      error: true,
+      success: false,
+      validationError: err.name === "ValidationError",
+    });
+  }
+}
+
+module.exports = UploadProductController;

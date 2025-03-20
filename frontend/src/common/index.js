@@ -1,7 +1,7 @@
 const backendDomin = "http://localhost:8080";
 
 const SummaryApi = {
-  signup: {
+  signUP: {
     url: `${backendDomin}/api/signup`,
     method: "post",
   },

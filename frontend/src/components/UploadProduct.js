@@ -7,16 +7,21 @@ import { toast } from "react-toastify";
 
 const UploadProduct = ({ onClose, fetchData }) => {
   const [data, setData] = useState({
-    productName: "",
-    brandName: "",
+    name: "",
+    brand: "",
     category: "",
-    productImage: "",
+    unit: "",
+    stock: "",
+    expd: "",
+    price: {
+      original: "",
+      discounted: "",
+    },
+    imageUrl: "",
     description: "",
-    price: "",
-    sellingPrice: "",
     subCategory: "",
-    expDate: "",
   });
+
   const [filteredSubCategories, setFilteredSubCategories] = useState([]);
 
   useEffect(() => {
@@ -31,34 +36,59 @@ const UploadProduct = ({ onClose, fetchData }) => {
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
-    setData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+
+    if (name.startsWith("price.")) {
+      const priceField = name.split(".")[1];
+      setData((prev) => ({
+        ...prev,
+        price: {
+          ...prev.price,
+          [priceField]: Number(value),
+        },
+      }));
+    } else {
+      setData((prev) => ({
+        ...prev,
+        [name]: name === "stock" ? Number(value) : value,
+      }));
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch(SummaryApi.uploadProduct.url, {
-      method: SummaryApi.uploadProduct.method,
-      credentials: "include",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+    const productData = {
+      ...data,
+      id: Math.floor(Math.random() * 1000000), // Numeric ID
+    };
 
-    const responseData = await response.json();
+    try {
+      const response = await fetch(SummaryApi.uploadProduct.url, {
+        method: SummaryApi.uploadProduct.method,
+        credentials: "include",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(productData),
+      });
 
-    if (responseData.success) {
-      toast.success(responseData?.message);
-      onClose();
-      fetchData();
-    }
+      const responseData = await response.json();
 
-    if (responseData.error) {
-      toast.error(responseData?.message);
+      if (!response.ok) {
+        throw new Error(responseData.message);
+      }
+
+      toast.success(responseData.message);
+      onClose(); // Close the modal
+
+      // Check if fetchData is a function before calling it
+      if (typeof fetchData === "function") {
+        fetchData(); // Refresh the product list
+      } else {
+        console.warn("fetchData is not a function");
+      }
+    } catch (error) {
+      toast.error(error.message);
     }
   };
 
@@ -79,32 +109,35 @@ const UploadProduct = ({ onClose, fetchData }) => {
           className="grid p-4 gap-2 overflow-y-scroll h-full pb-5"
           onSubmit={handleSubmit}
         >
-          <label htmlFor="productName">Product Name:</label>
+          {/* Product Name */}
+          <label htmlFor="name">Product Name:</label>
           <input
             type="text"
-            id="productName"
+            id="name"
             placeholder="Enter product name"
-            name="productName"
-            value={data.productName}
+            name="name"
+            value={data.name}
             onChange={handleOnChange}
             className="p-2 bg-slate-100 border rounded"
             required
           />
 
-          <label htmlFor="brandName" className="mt-3">
-            Brand Name:
+          {/* Brand */}
+          <label htmlFor="brand" className="mt-3">
+            Brand:
           </label>
           <input
             type="text"
-            id="brandName"
-            placeholder="Enter brand name"
-            value={data.brandName}
-            name="brandName"
+            id="brand"
+            placeholder="Enter brand"
+            value={data.brand}
+            name="brand"
             onChange={handleOnChange}
             className="p-2 bg-slate-100 border rounded"
             required
           />
 
+          {/* Category */}
           <label htmlFor="category" className="mt-3">
             Category:
           </label>
@@ -123,6 +156,7 @@ const UploadProduct = ({ onClose, fetchData }) => {
             ))}
           </select>
 
+          {/* Sub Category */}
           {data.category && (
             <>
               <label htmlFor="subCategory" className="mt-3">
@@ -145,24 +179,100 @@ const UploadProduct = ({ onClose, fetchData }) => {
             </>
           )}
 
-          <label htmlFor="productImage" className="mt-3">
-            Product Image URL:
+          {/* Unit */}
+          <label htmlFor="unit" className="mt-3">
+            Unit:
           </label>
           <input
-            type="url"
-            id="productImage"
-            placeholder="Enter image URL"
-            name="productImage"
-            value={data.productImage}
+            type="text"
+            id="unit"
+            placeholder="Enter unit (e.g., kg, liter)"
+            value={data.unit}
+            name="unit"
             onChange={handleOnChange}
             className="p-2 bg-slate-100 border rounded"
             required
           />
 
-          {data.productImage && (
+          {/* Stock */}
+          <label htmlFor="stock" className="mt-3">
+            Stock:
+          </label>
+          <input
+            type="number"
+            id="stock"
+            placeholder="Enter stock quantity"
+            value={data.stock}
+            name="stock"
+            onChange={handleOnChange}
+            className="p-2 bg-slate-100 border rounded"
+            required
+          />
+
+          {/* Expiration Date */}
+          <label htmlFor="expd" className="mt-3">
+            Expiration Date:
+          </label>
+          <input
+            type="date"
+            id="expd"
+            name="expd"
+            value={data.expd}
+            onChange={handleOnChange}
+            className="p-2 bg-slate-100 border rounded"
+            required
+            min={new Date().toISOString().split("T")[0]}
+          />
+
+          {/* Price - Original */}
+          <label htmlFor="price.original" className="mt-3">
+            Original Price:
+          </label>
+          <input
+            type="number"
+            id="price.original"
+            placeholder="Enter original price"
+            value={data.price.original}
+            name="price.original"
+            onChange={handleOnChange}
+            className="p-2 bg-slate-100 border rounded"
+            required
+          />
+
+          {/* Price - Discounted */}
+          <label htmlFor="price.discounted" className="mt-3">
+            Discounted Price:
+          </label>
+          <input
+            type="number"
+            id="price.discounted"
+            placeholder="Enter discounted price"
+            value={data.price.discounted}
+            name="price.discounted"
+            onChange={handleOnChange}
+            className="p-2 bg-slate-100 border rounded"
+            required
+          />
+
+          {/* Image URL */}
+          <label htmlFor="imageUrl" className="mt-3">
+            Product Image URL:
+          </label>
+          <input
+            type="url"
+            id="imageUrl"
+            placeholder="Enter image URL"
+            name="imageUrl"
+            value={data.imageUrl}
+            onChange={handleOnChange}
+            className="p-2 bg-slate-100 border rounded"
+            required
+          />
+
+          {data.imageUrl && (
             <div className="mt-2">
               <img
-                src={data.productImage}
+                src={data.imageUrl}
                 alt="Product Preview"
                 className="h-20 w-20 object-cover rounded border"
               />
@@ -170,48 +280,7 @@ const UploadProduct = ({ onClose, fetchData }) => {
             </div>
           )}
 
-          <label htmlFor="price" className="mt-3">
-            Price:
-          </label>
-          <input
-            type="number"
-            id="price"
-            placeholder="Enter price"
-            value={data.price}
-            name="price"
-            onChange={handleOnChange}
-            className="p-2 bg-slate-100 border rounded"
-            required
-          />
-
-          <label htmlFor="sellingPrice" className="mt-3">
-            Selling Price:
-          </label>
-          <input
-            type="number"
-            id="sellingPrice"
-            placeholder="Enter selling price"
-            value={data.sellingPrice}
-            name="sellingPrice"
-            onChange={handleOnChange}
-            className="p-2 bg-slate-100 border rounded"
-            required
-          />
-
-          <label htmlFor="expDate" className="mt-3">
-            Expiration Date:
-          </label>
-          <input
-            type="date"
-            id="expDate"
-            name="expDate"
-            value={data.expDate}
-            onChange={handleOnChange}
-            className="p-2 bg-slate-100 border rounded"
-            required
-            min={new Date().toISOString().split("T")[0]}
-          />
-
+          {/* Description */}
           <label htmlFor="description" className="mt-3">
             Description:
           </label>

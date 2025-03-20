@@ -96,7 +96,6 @@ const AllProducts = () => {
           )}
         </>
       )}
-
     </div>
   );
 };
