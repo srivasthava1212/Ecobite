@@ -155,7 +155,9 @@ const Header = () => {
         <div className="dropdown-menu">
           <ul>
             <li>
-              <button className="dropdown-btn">Profile</button>
+              <button className="dropdown-btn">
+                <a href="/admin-panel/all-users">Profile</a>
+              </button>
             </li>
             <li>
               <button className="dropdown-btn">Orders</button>
