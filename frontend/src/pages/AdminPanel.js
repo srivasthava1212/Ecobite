@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { Link, Outlet, useNavigate } from "react-router-dom";
@@ -7,18 +7,31 @@ import ROLE from "../common/role";
 const AdminPanel = () => {
   const user = useSelector((state) => state?.user?.user);
   const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Uncomment this effect to restrict access to admin only
-  // useEffect(() => {
-  //   if (user?.role !== ROLE.ADMIN) {
-  //     navigate("/");
-  //   }
-  // }, [user]);
+  useEffect(() => {
+    if (user === null || user === undefined) {
+      setIsLoading(true);
+    } else {
+      setIsLoading(false);
+      if (user.role !== ROLE.ADMIN) {
+        navigate("/");
+      }
+    }
+  }, [user, navigate]);
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        Loading...
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen flex bg-gray-50">
-      {/* Sidebar */}
-      <aside className="bg-white w-64 flex-shrink-0 shadow-lg">
+    <div className="h-screen flex bg-gray-50 overflow-hidden">
+      {/* Sidebar (no longer fixed) */}
+      <aside className="bg-white w-64 shadow-lg h-screen flex-shrink-0">
         <div className="h-40 flex flex-col justify-center items-center border-b">
           <div className="mb-2">
             {user?.profilePic ? (
@@ -35,7 +48,6 @@ const AdminPanel = () => {
           <p className="text-sm text-black uppercase">{user?.role}</p>
         </div>
 
-        {/* Navigation Menu */}
         <nav className="p-4 space-y-2">
           <Link
             to="all-users"
@@ -53,11 +65,19 @@ const AdminPanel = () => {
       </aside>
 
       {/* Main Content Area */}
-      <main className="flex-1 overflow-y-auto p-8 mt-0">
-        <div className="max-w-7xl mx-auto">
-          <Outlet />
+      <div className="flex-1 flex flex-col">
+        {/* Fixed Header */}
+        <header className="bg-white shadow-sm p-8 h-20 flex items-center">
+          <h1 className="text-2xl font-bold text-black">Admin Dashboard</h1>
+        </header>
+
+        {/* Scrollable Content Container */}
+        <div className="flex-1 overflow-y-auto">
+          <div className="max-w-7xl mx-auto p-8">
+            <Outlet />
+          </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 };

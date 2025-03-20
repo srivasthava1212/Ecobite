@@ -13,6 +13,11 @@ const SummaryApi = {
     url: `${backendDomin}/api/user-details`,
     method: "get",
   },
+  // In SummaryApi.js
+  deleteProduct: {
+    url: `${backendDomin}/api/delete-product`, // Keep this URL
+    method: "delete",
+  },
   logout_user: {
     url: `${backendDomin}/api/userLogout`,
     method: "get",
@@ -35,7 +40,7 @@ const SummaryApi = {
   },
   updateProduct: {
     url: `${backendDomin}/api/update-product`,
-    method: "post",
+    method: "put",
   },
   categoryProduct: {
     url: `${backendDomin}/api/get-categoryProduct`,

@@ -72,7 +72,7 @@ function App() {
         {/* Conditionally apply classes to main */}
         <main
           className={`${
-            !shouldHideHeaderFooter ? "min-h-[calc(100vh-120px)] pt-16" : ""
+            !shouldHideHeaderFooter ? "min-h-[calc(100vh-120px)] pt-3" : ""
           }`}
         >
           <Outlet />
