@@ -3,7 +3,7 @@ import App from "../App";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import ForgotPassowrd from "../pages/ForgotPassowrd";
-import Signup from "../pages/SignUp";
+import Signup from "../pages/Signup";
 import AdminPanel from "../pages/AdminPanel";
 import AllUsers from "../pages/AllUsers";
 import AllProducts from "../pages/AllProducts";

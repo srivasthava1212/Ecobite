@@ -13,8 +13,13 @@ const CategoryProduct = () => {
   }, [category]);
 
   return (
-    <div>
-      <h2>{category} Products</h2>
+    <div className="container mx-auto px-4 py-8">
+      {/* Styled h2 Tag */}
+      <h2 className="text-4xl font-bold text-center mb-8 text-gray-800 uppercase border-b-2 border-gray-200 pb-4">
+        {category}
+      </h2>
+
+      {/* VerticalCard Component */}
       <VerticalCard data={data} />
     </div>
   );

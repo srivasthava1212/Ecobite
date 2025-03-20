@@ -9,12 +9,7 @@ const CategoryWiseProductDisplay = ({ category }) => {
     fetchCategoryWiseProduct(category).then(setData);
   }, [category]);
 
-  return (
-    <div>
-      <h2>{category} Products</h2>
-      <VerticalCard data={data} />
-    </div>
-  );
+  return <VerticalCard data={data} category={category} />;
 };
 
 export default CategoryWiseProductDisplay;
