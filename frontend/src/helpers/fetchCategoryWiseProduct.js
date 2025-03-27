@@ -1,7 +1,7 @@
 import SummaryApi from "../common";
 
 const fetchCategoryWiseProduct = async (category) => {
-  console.log(`📤 Requesting products for category: "${category}"`); // Debugging
+  // console.log(`📤 Requesting products for category: "${category}"`); // Debugging
 
   const response = await fetch(SummaryApi.categoryWiseProduct.url, {
     method: SummaryApi.categoryWiseProduct.method,
@@ -13,7 +13,7 @@ const fetchCategoryWiseProduct = async (category) => {
 
   const dataResponse = await response.json();
 
-  console.log(`📥 Response for "${category}":`, dataResponse); // Debugging
+  // console.log(`📥 Response for "${category}":`, dataResponse); // Debugging
 
   return dataResponse.data || [];
 };

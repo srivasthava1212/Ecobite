@@ -13,7 +13,7 @@ const getCategoryWiseProduct = async (req, res) => {
       });
     }
 
-    console.log(`🔍 Searching for category: "${category}"`);
+    // console.log(`🔍 Searching for category: "${category}"`);
 
     // Trim spaces and ensure case-insensitive match
     const normalizedCategory = category.trim();
@@ -22,7 +22,7 @@ const getCategoryWiseProduct = async (req, res) => {
       category: { $regex: new RegExp(`^${normalizedCategory}$`, "i") },
     });
 
-    console.log(`✅ Found ${products.length} products for "${category}"`);
+    // console.log(`✅ Found ${products.length} products for "${category}"`);
 
     res.json({
       data: products,

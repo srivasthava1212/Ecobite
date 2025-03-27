@@ -6,23 +6,29 @@ const connectDB = require("./config/db");
 const router = require("./routes");
 
 const app = express();
-app.use(
-  cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-  })
-);
+
+// ✅ Explicitly handle CORS preflight requests
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", process.env.FRONTEND_URL);
+  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  res.header("Access-Control-Allow-Credentials", "true");
+
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(204); // Send a proper response for preflight requests
+  }
+  next();
+});
+
 app.use(express.json());
 app.use(cookieParser());
-
 app.use("/api", router);
 
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 connectDB().then(() => {
   app.listen(PORT, () => {
-    console.log("connnect to DB");
-    console.log("Server is running " + PORT);
+    console.log("Connected to DB");
+    console.log("Server is running on port " + PORT);
   });
 });

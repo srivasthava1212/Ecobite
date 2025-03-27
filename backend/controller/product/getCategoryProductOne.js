@@ -6,8 +6,8 @@ const getCategoryProduct = async (req, res) => {
     const productCategories = await productModel.distinct("category");
     const productSubCategories = await productModel.distinct("subCategory");
 
-    console.log("Categories:", productCategories);
-    console.log("Subcategories:", productSubCategories);
+    // console.log("Categories:", productCategories);
+    // console.log("Subcategories:", productSubCategories);
 
     // Array to store one product from each category
     const productByCategory = [];
