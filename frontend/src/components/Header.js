@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import logo from "../assets/logo.png";
 import "./Header.css";
 import { TfiSearch } from "react-icons/tfi";
@@ -9,12 +9,20 @@ import { useDispatch, useSelector } from "react-redux";
 import SummaryApi from "../common/index";
 import { toast } from "react-toastify";
 import { setUserDetails } from "../store/userSlice";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import Context from "../context";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const user = useSelector((state) => state?.user?.user);
   const dispatch = useDispatch();
   const [menuDisplay, setMenuDisplay] = useState(false);
+  const context = useContext(Context);
+  const navigate = useNavigate();
+  const searchInput = useLocation();
+  const URLSearch = new URLSearchParams(searchInput?.search);
+  const searchQuery = URLSearch.getAll("q");
+  const [search, setSearch] = useState(searchQuery);
 
   console.log("userHeader", user);
 
@@ -33,6 +41,16 @@ const Header = () => {
 
     if (data.error) {
       toast.error(data.message);
+    }
+  };
+  const handleSearch = (e) => {
+    const { value } = e.target;
+    setSearch(value);
+
+    if (value) {
+      navigate(`/search?q=${value}`);
+    } else {
+      navigate("/search");
     }
   };
 
@@ -57,6 +75,8 @@ const Header = () => {
           <input
             placeholder="Search Here"
             className="h-10 w-full ml-20 p-2 bg-gray-200 rounded-xl"
+            onChange={handleSearch}
+            value={search}
           />
           <button className="cartbtn">
             <TfiSearch className="h-9 ml-3" size={22} />
@@ -79,14 +99,14 @@ const Header = () => {
               <a href="/about">About</a>
             </li>
           </ul>
-          <button className="cartbtn relative">
+          <Link to={"/cart"} className="cartbtn relative">
             <span>
               <BsCart4 size={30} />{" "}
             </span>
             <div className="bg-red-600 text-white w-5 h-5 rounded-full p-1 flex items-center justify-center absolute -top-2 -right-3">
-              <p className="text-xs ">0</p>
+              <p className="text-xs ">{context?.cartProductCount}</p>
             </div>
-          </button>
+          </Link>
           <div
             className="relative flex justify-center"
             onClick={() => {
@@ -120,7 +140,7 @@ const Header = () => {
               onClick={handleLogout}
               className="px-4 py-1 ml-3 rounded-full text-white bg-red-600 hover:bg-red-500"
             >
-              <a>Logout</a>
+              <a href="/login">Logout</a>
             </button>
           ) : (
             <button className="px-4 py-1 ml-3 rounded-full text-white bg-red-600 hover:bg-red-500">
@@ -140,7 +160,7 @@ const Header = () => {
               onClick={handleLogout}
               className="px-4 py-1 ml-3 rounded-full text-white bg-red-600 hover:bg-red-500"
             >
-              <a>Logout</a>
+              <a href="/login">Logout</a>
             </button>
           ) : (
             <button className="px-4 py-1 ml-3 rounded-full text-white bg-red-600 hover:bg-red-500">
@@ -165,7 +185,9 @@ const Header = () => {
             <li>
               <div className="flex justify-center items-center">
                 <div>
-                  <button className="dropdown-btn">Cart</button>
+                  <button className="dropdown-btn">
+                    <a href="/cart">Cart</a>
+                  </button>
                 </div>
 
                 <div className="bg-red-600 text-white w-5 h-5 rounded-full p-1 flex items-center justify-center">
