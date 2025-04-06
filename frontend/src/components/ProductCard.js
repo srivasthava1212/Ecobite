@@ -1,29 +1,15 @@
 import { useState } from "react";
 import "./ProductCard.css";
+import React, { useContext } from "react";
+import addToCart from "../helpers/addToCart";
+import Context from "../context";
 
 const ProductCard = ({ product, setPaused }) => {
-  const [quantity, setQuantity] = useState(0);
   const [isInteracting, setIsInteracting] = useState(false);
-
-  const handleAddToCart = (e) => {
-    e.stopPropagation();
-    setQuantity(1);
-    pauseScrolling();
-  };
-
-  const increaseQuantity = (e) => {
-    e.stopPropagation();
-    setQuantity(quantity + 1);
-    pauseScrolling();
-  };
-
-  const decreaseQuantity = (e) => {
-    e.stopPropagation();
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    } else {
-      setQuantity(0);
-    }
+  const { fetchUserAddToCart } = useContext(Context);
+  const handleAddToCart = async (e, id) => {
+    await addToCart(e, id);
+    fetchUserAddToCart();
     pauseScrolling();
   };
 
@@ -35,7 +21,7 @@ const ProductCard = ({ product, setPaused }) => {
         if (!isInteracting) {
           setPaused(false);
         }
-      }, 2000);
+      }, 1000);
     }
   };
 
@@ -70,21 +56,12 @@ const ProductCard = ({ product, setPaused }) => {
           <span className="new-price">₹{product.price.original}</span>
         )}
       </div>
-      {quantity === 0 ? (
-        <button className="add-to-cart" onClick={handleAddToCart}>
-          Add to Cart
-        </button>
-      ) : (
-        <div className="quantity-controls">
-          <button className="quantity-btn" onClick={decreaseQuantity}>
-            -
-          </button>
-          <span className="quantity-display">{quantity}</span>
-          <button className="quantity-btn" onClick={increaseQuantity}>
-            +
-          </button>
-        </div>
-      )}
+      <button
+        className="add-to-cart"
+        onClick={(e) => handleAddToCart(e, product._id)}
+      >
+        Add to Cart
+      </button>
       <div className="description">{product.description}</div>
     </div>
   );

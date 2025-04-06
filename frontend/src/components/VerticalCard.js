@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import addToCart from "../helpers/addToCart";
+import Context from "../context";
 
 const VerticalCard = ({ data = [], category }) => {
+  const { fetchUserAddToCart } = useContext(Context);
+  const handleAddToCart = async (e, id) => {
+    await addToCart(e, id);
+    fetchUserAddToCart();
+  };
   return (
     <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,300px))] justify-center md:justify-between md:gap-4 overflow-x-scroll scrollbar-none transition-all">
       {/* Parent Container Heading */}
@@ -68,7 +75,10 @@ const VerticalCard = ({ data = [], category }) => {
               </div>
 
               {/* ✅ Add to Cart Button */}
-              <button className="text-sm bg-[#2f8aeb] hover:bg-[#419ad9] text-white px-3 py-0.5 rounded-md">
+              <button
+                className="text-sm bg-[#2f8aeb] hover:bg-[#419ad9] text-white px-3 py-0.5 rounded-md"
+                onClick={(e) => handleAddToCart(e, product._id)}
+              >
                 Add to Cart
               </button>
             </div>
