@@ -28,7 +28,7 @@ const paymentController = async (request, response) => {
                 productId: item._id,
               },
             },
-            unit_amount: item.price.discounted,
+            unit_amount: item.price.discounted * 100,
           },
           adjustable_quantity: {
             enabled: true,

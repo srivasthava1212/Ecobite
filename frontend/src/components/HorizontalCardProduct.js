@@ -1,3 +1,6 @@
+/* The line `import React, { useContext, useEffect, useRef, useState } from "react";` is importing
+specific hooks and functions from the React library. Here's a breakdown of what each of these
+imports does: */
 import React, { useContext, useEffect, useRef, useState } from "react";
 import fetchCategoryWiseProduct from "../helpers/fetchCategoryWiseProduct";
 import displayINRCurrency from "../helpers/displayCurrency";
@@ -116,7 +119,9 @@ const HorizontalCardProduct = ({ category, heading }) => {
                 <h2 className="font-medium text-base md:text-lg text-ellipsis line-clamp-1 text-black">
                   {product.name}
                 </h2>
-                <p className="capitalize text-slate-500">{product.category}</p>
+                <p className="capitalize text-slate-500 text-ellipsis line-clamp-1">
+                  {product.category}
+                </p>
                 <div className="flex gap-3">
                   <p className="text-red-600 font-medium">
                     {displayINRCurrency(product?.price?.discounted)}
