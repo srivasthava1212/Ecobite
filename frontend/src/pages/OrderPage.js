@@ -3,19 +3,31 @@ import { Link } from "react-router-dom";
 import moment from "moment";
 import SummaryApi from "../common";
 import displayINRCurrency from "../helpers/displayCurrency";
+import { toast } from "react-toastify";
 
 const OrderPage = () => {
 	const [data, setData] = useState([]);
 
 	const fetchOrderDetails = async () => {
-		const response = await fetch(SummaryApi.getOrder.url, {
-			method: SummaryApi.getOrder.method,
-			credentials: "include",
-		});
+		try {
+			const response = await fetch(SummaryApi.getOrder.url, {
+				method: SummaryApi.getOrder.method,
+				credentials: "include",
+			});
 
-		const responseData = await response.json();
-		setData(responseData.data);
-		console.log("Order List: ", responseData);
+			const responseData = await response.json();
+
+			if (response.status === 401 || !responseData.data) {
+				toast.error("Please Login..");
+				return;
+			}
+
+			setData(responseData.data);
+			console.log("Order List: ", responseData);
+		} catch (error) {
+			toast.error("Something went wrong!");
+			console.error("Order fetch error:", error);
+		}
 	};
 
 	useEffect(() => {
