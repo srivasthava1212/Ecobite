@@ -7,7 +7,7 @@ const router = require("./routes");
 
 const app = express();
 
-require("./utils/expiryScheduler")(); // 💡 auto-runs every 24hr
+require("./jobs/scheduleExpiryCheck")(); // 💡 auto-runs every 24hr
 
 // ✅ Explicitly handle CORS preflight requests
 app.use((req, res, next) => {
