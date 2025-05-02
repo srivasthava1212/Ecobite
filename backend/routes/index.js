@@ -25,7 +25,7 @@ const filterProductController = require("../controller/product/filterProduct");
 const paymentController = require("../controller/order/paymentController");
 const webhooks = require("../controller/order/webhook");
 const ordercontroller = require("../controller/order/orderController");
-
+const trackExpiry = require("../controller/expiry/trackExpiry");
 router.post("/signup", userSignUpController);
 router.post("/signin", userSignInController);
 router.get("/user-details", authToken, userDetailsController);
@@ -55,5 +55,9 @@ router.post("/delete-cart-product", authToken, deleteAddToCartProduct);
 router.post("/checkout", authToken, paymentController);
 router.post("/webhook", webhooks);
 router.get("/order-list", authToken, ordercontroller);
+
+//expiry tracker
+
+router.get("/track-expiry", authToken, trackExpiry);
 
 module.exports = router;
